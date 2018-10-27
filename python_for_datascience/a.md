@@ -1,48 +1,6 @@
-hello everyone this is orders from ATO
+Hello world, in this blog we are going to peek into Numpy module available in Python. Let us move forward and have a look at the agenda. First we'll see what is Numpy, then we are going to compare it with list and we'll see why it is better than list then we are going to see various operations that we can perform with numpy arrays and there are certain special functions as well that we are going to focus on later in the session.
 
-Rekha and in today's session we are
-
-going to focus on num py module
-
-available in Python so let us move
-
-forward and have a look at the agenda
-
-for today first we'll see what is numpy
-
-then we are going to compare it with
-
-list and we'll see why it is better than
-
-list then we are going to see various
-
-operations that we can perform with
-
-numpy arrays and there are certain
-
-special functions as well that we are
-
-going to focus on later in the session
-
-so are we all clear with the agenda
-
-timely give me a quick confirmation by
-
-writing down in the chat box Devon says
-
-e square so dusty on Johnny says move
-
-forward bases go on Lavinia Jason are
-
-you see Dorothy near or at fine guys so
-
-I've got a confirmation from almost
-
-everyone so let us move forward and
-
-understand what exactly is an umpire so
-
-what is numpy number is basically a
+Let us move forward and understand what exactly is an umpire so what is numpy number is basically a
 
 module or you can say a library that is
 
@@ -68,79 +26,11 @@ multi-dimensional container for data for
 
 generic data now let me tell you what
 
-exactly is multi-dimensional array now
+exactly is multi-dimensional array 
 
-over here this picture actually depicts
 
-multi-dimensional array so we have
 
-various elements that are stored in
 
-their respective memory locations so we
-
-have one two threes in their own memory
-
-locations now why is it two dimensional
-
-it is two dimensional because it has
-
-rows as well as columns so you can see
-
-we have three columns and we have four
-
-rows available so that is the reason why
-
-it becomes a two dimensional array so if
-
-I would have had only one row then I
-
-would have said that it is a one
-
-dimensional array but since it contains
-
-rows as well as columns that is it is
-
-represented in a matrix form that is why
-
-we call this as a two dimensional array
-
-so I hope we are clear with what exactly
-
-two dimensional arrays if you have any
-
-questions about you can ask me any
-
-questions
-
-and oh are you she geography Nia Lavinia
-
-Jason Theon Dave or a fine guy so we
-
-have no questions so let me open my
-
-pycharm and I will tell you practically
-
-how to actually create an umpire Eric
-
-so this is my Python guys over here the
-
-first thing that you need to do is first
-
-installed the num py module and how
-
-you're going to do that click on file go
-
-to settings tab and you see the project
-
-interpreter option and on the right hand
-
-side you'll see a plus symbols go on and
-
-type the module that you wanna install
-
-so I'm going to install numpy wises go
-
-there click on it and install package
 
 I've already done that so I'm not going
 
