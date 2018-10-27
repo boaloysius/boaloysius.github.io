@@ -1,24 +1,36 @@
-Hello workd, in this blog we will look into Numpy module. It is extremely popular in Python community and it is heavily used for Scientific Computing and Data Science. we will see why it is so popular.
+Hello workd, in this blog we will look into Numpy or the numerical python module. It is extremely popular in Python community and it is heavily used for Scientific Computing and Data Science. We will see why it is so popular.
 
-To get started we will install the module. Run
+To get started we will install the module. Download and install the module by running
 ```python
-ipip install numpy
+pip install numpy
 ```
-to download and install it.
 
-while it
+As given in their official documentation, NumPy derives from an old library called Numeric, which was the first array object built for Python. The most basic object in NumPy is the ```ndarray```, or simply an ```array```, which is an **n-dimensional, homogenous** array. By homogenous, we mean that all the elements in a numpy array have to be of the **same data type**, which is commonly numeric (float or integer). 
 
-is installing number wise main object is
 
-n dimensional array okay so we will look
+Let's import numpy and create a first array object.
 
-into that array so here I have my Python
+```python
+# np is the standard alias used
+import numpy as np
+array_1d = np.array([2, 4, 5, 6, 7, 9])
+print(array_1d)
+print(type(array_1d))
+```
+    [2 4 5 6 7 9]
+    <class 'numpy.ndarray'>
 
-idle shell open and I am going to import
 
-numpy Y model here so num I've imported
 
-it as NP and to create an array object
+```python
+# Creating a 2-D array using two lists
+array_2d = np.array([[2, 3, 4], [5, 8, 7]])
+print(array_2d)
+```
+
+    [[2 3 4]
+     [5 8 7]]
+
 
 you will use NP dot array and in this
 
