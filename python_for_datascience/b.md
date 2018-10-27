@@ -1,13 +1,12 @@
 Hello workd, in this blog we will look into Numpy module. It is extremely popular in Python community and it is heavily used for Scientific Computing and Data Science. we will see why it is so popular.
 
-To get started we will install the module
+To get started we will install the module. Run
 ```python
-install it using pip
+ipip install numpy
 ```
+to download and install it.
 
-you can run pip install numpy why come
-
-on to download and install it while it
+while it
 
 is installing number wise main object is
 
