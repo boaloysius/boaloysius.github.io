@@ -1,1732 +1,1731 @@
-hello everyone this<font color="#CCCCCC"> is orders from ATO</font>
+hello everyone this is orders from ATO
 
-Rekha<font color="#E5E5E5"> and in today's session we</font><font color="#CCCCCC"> are</font>
+Rekha and in today's session we are
 
-going<font color="#E5E5E5"> to focus on num py module</font>
+going to focus on num py module
 
-available<font color="#CCCCCC"> in Python so let us</font><font color="#E5E5E5"> move</font>
+available in Python so let us move
 
-forward<font color="#E5E5E5"> and have a look at the agenda</font>
+forward and have a look at the agenda
 
-<font color="#E5E5E5">for today first we'll see what is numpy</font>
+for today first we'll see what is numpy
 
-<font color="#E5E5E5">then we are going to compare</font><font color="#CCCCCC"> it with</font>
+then we are going to compare it with
 
-<font color="#E5E5E5">list and we'll see why it is better than</font>
+list and we'll see why it is better than
 
-list<font color="#E5E5E5"> then we are going to see various</font>
+list then we are going to see various
 
 operations that we can perform with
 
-<font color="#CCCCCC">numpy</font><font color="#E5E5E5"> arrays and there are certain</font>
+numpy arrays and there are certain
 
 special functions as well that we are
 
-<font color="#E5E5E5">going to focus on later in the session</font>
+going to focus on later in the session
 
-<font color="#CCCCCC">so are</font><font color="#E5E5E5"> we all clear with the agenda</font>
+so are we all clear with the agenda
 
-<font color="#E5E5E5">timely give me a quick confirmation by</font>
+timely give me a quick confirmation by
 
-writing<font color="#E5E5E5"> down</font><font color="#CCCCCC"> in the chat</font><font color="#E5E5E5"> box Devon</font><font color="#CCCCCC"> says</font>
+writing down in the chat box Devon says
 
-<font color="#CCCCCC">e</font><font color="#E5E5E5"> square so dusty on</font><font color="#CCCCCC"> Johnny says move</font>
+e square so dusty on Johnny says move
 
-forward<font color="#CCCCCC"> bases go on Lavinia Jason are</font>
+forward bases go on Lavinia Jason are
 
-you see Dorothy<font color="#CCCCCC"> near</font><font color="#E5E5E5"> or</font><font color="#CCCCCC"> at fine</font><font color="#E5E5E5"> guys so</font>
+you see Dorothy near or at fine guys so
 
-I've got a confirmation<font color="#E5E5E5"> from almost</font>
+I've got a confirmation from almost
 
-everyone<font color="#E5E5E5"> so let</font><font color="#CCCCCC"> us move forward</font><font color="#E5E5E5"> and</font>
+everyone so let us move forward and
 
-understand what<font color="#CCCCCC"> exactly is an umpire so</font>
+understand what exactly is an umpire so
 
-what is numpy number is<font color="#E5E5E5"> basically a</font>
+what is numpy number is basically a
 
-module<font color="#E5E5E5"> or you can say a library that</font><font color="#CCCCCC"> is</font>
+module or you can say a library that is
 
-<font color="#CCCCCC">available in python for scientific</font>
+available in python for scientific
 
-<font color="#CCCCCC">computing</font><font color="#E5E5E5"> now it contains a lot of</font>
+computing now it contains a lot of
 
-<font color="#CCCCCC">things it contains a powerful n</font>
+things it contains a powerful n
 
-<font color="#E5E5E5">dimensional array object then tools for</font>
+dimensional array object then tools for
 
-integrating with<font color="#E5E5E5"> C C++</font><font color="#CCCCCC"> it is also very</font>
+integrating with C C++ it is also very
 
-useful<font color="#E5E5E5"> in linear algebra Fourier</font>
+useful in linear algebra Fourier
 
-transform and<font color="#E5E5E5"> random number capabilities</font>
+transform and random number capabilities
 
-now let me tell<font color="#E5E5E5"> you guys numpy can also</font>
+now let me tell you guys numpy can also
 
 be used as an efficient
 
-<font color="#CCCCCC">multi-dimensional container</font><font color="#E5E5E5"> for data</font><font color="#CCCCCC"> for</font>
+multi-dimensional container for data for
 
-<font color="#CCCCCC">generic data</font><font color="#E5E5E5"> now let me tell you what</font>
+generic data now let me tell you what
 
-exactly<font color="#CCCCCC"> is multi-dimensional array now</font>
+exactly is multi-dimensional array now
 
-over here this picture<font color="#E5E5E5"> actually depicts</font>
+over here this picture actually depicts
 
-<font color="#CCCCCC">multi-dimensional</font><font color="#E5E5E5"> array so we have</font>
+multi-dimensional array so we have
 
-various elements<font color="#E5E5E5"> that are stored in</font>
+various elements that are stored in
 
-their respective memory<font color="#CCCCCC"> locations so</font><font color="#E5E5E5"> we</font>
+their respective memory locations so we
 
-have one<font color="#E5E5E5"> two threes in their own memory</font>
+have one two threes in their own memory
 
-locations<font color="#E5E5E5"> now why is it two dimensional</font>
+locations now why is it two dimensional
 
-<font color="#E5E5E5">it is two dimensional because it has</font>
+it is two dimensional because it has
 
-<font color="#CCCCCC">rows as well as columns</font><font color="#E5E5E5"> so you can see</font>
+rows as well as columns so you can see
 
-we have three<font color="#E5E5E5"> columns and we have four</font>
+we have three columns and we have four
 
-rows available<font color="#E5E5E5"> so that</font><font color="#CCCCCC"> is the reason</font><font color="#E5E5E5"> why</font>
+rows available so that is the reason why
 
-it<font color="#E5E5E5"> becomes a</font><font color="#CCCCCC"> two dimensional array</font><font color="#E5E5E5"> so if</font>
+it becomes a two dimensional array so if
 
-I would<font color="#CCCCCC"> have</font><font color="#E5E5E5"> had only one</font><font color="#CCCCCC"> row</font><font color="#E5E5E5"> then I</font>
+I would have had only one row then I
 
-would<font color="#E5E5E5"> have said</font><font color="#CCCCCC"> that it</font><font color="#E5E5E5"> is a one</font>
+would have said that it is a one
 
-dimensional<font color="#CCCCCC"> array</font><font color="#E5E5E5"> but since it contains</font>
+dimensional array but since it contains
 
-<font color="#E5E5E5">rows as</font><font color="#CCCCCC"> well as columns</font><font color="#E5E5E5"> that is it is</font>
+rows as well as columns that is it is
 
-represented in a matrix<font color="#E5E5E5"> form that is why</font>
+represented in a matrix form that is why
 
-we call this as<font color="#E5E5E5"> a two</font><font color="#CCCCCC"> dimensional array</font>
+we call this as a two dimensional array
 
-<font color="#CCCCCC">so I</font><font color="#E5E5E5"> hope we</font><font color="#CCCCCC"> are clear with what</font><font color="#E5E5E5"> exactly</font>
+so I hope we are clear with what exactly
 
-two dimensional arrays<font color="#E5E5E5"> if you have any</font>
+two dimensional arrays if you have any
 
 questions about you can ask me any
 
 questions
 
-<font color="#E5E5E5">and</font><font color="#CCCCCC"> oh</font><font color="#E5E5E5"> are you</font><font color="#CCCCCC"> she geography Nia Lavinia</font>
+and oh are you she geography Nia Lavinia
 
-Jason Theon Dave or a fine<font color="#CCCCCC"> guy</font><font color="#E5E5E5"> so we</font>
+Jason Theon Dave or a fine guy so we
 
-have no questions<font color="#CCCCCC"> so let me open my</font>
+have no questions so let me open my
 
-<font color="#CCCCCC">pycharm and I will tell</font><font color="#E5E5E5"> you practically</font>
+pycharm and I will tell you practically
 
-how to<font color="#CCCCCC"> actually create an umpire Eric</font>
+how to actually create an umpire Eric
 
-so this is my Python guys over here<font color="#E5E5E5"> the</font>
+so this is my Python guys over here the
 
-<font color="#E5E5E5">first thing that you need to do is first</font>
+first thing that you need to do is first
 
-installed<font color="#E5E5E5"> the num py module and how</font>
+installed the num py module and how
 
-you're going<font color="#E5E5E5"> to do that click on file go</font>
+you're going to do that click on file go
 
-to<font color="#E5E5E5"> settings tab and you see the project</font>
+to settings tab and you see the project
 
-interpreter option<font color="#E5E5E5"> and on the right hand</font>
+interpreter option and on the right hand
 
-<font color="#CCCCCC">side</font><font color="#E5E5E5"> you'll</font><font color="#CCCCCC"> see a plus symbols</font><font color="#E5E5E5"> go on and</font>
+side you'll see a plus symbols go on and
 
 type the module that you wanna install
 
-<font color="#E5E5E5">so I'm going to install numpy wises go</font>
+so I'm going to install numpy wises go
 
-there<font color="#E5E5E5"> click on it and install package</font>
+there click on it and install package
 
-<font color="#CCCCCC">I've already done</font><font color="#E5E5E5"> that so I'm</font><font color="#CCCCCC"> not going</font>
+I've already done that so I'm not going
 
-<font color="#E5E5E5">to</font><font color="#CCCCCC"> repeat it</font><font color="#E5E5E5"> so this</font><font color="#CCCCCC"> is</font><font color="#E5E5E5"> my</font><font color="#CCCCCC"> PI charms the</font>
+to repeat it so this is my PI charms the
 
-first thing that<font color="#CCCCCC"> I need to</font><font color="#E5E5E5"> do is import</font>
+first thing that I need to do is import
 
-numpy<font color="#CCCCCC"> Y as</font><font color="#E5E5E5"> NP now after that</font><font color="#CCCCCC"> I</font><font color="#E5E5E5"> need to</font>
+numpy Y as NP now after that I need to
 
-create<font color="#E5E5E5"> a</font><font color="#CCCCCC"> num py RA</font><font color="#E5E5E5"> so for that I'm going</font>
+create a num py RA so for that I'm going
 
-to<font color="#E5E5E5"> define a variable that</font><font color="#CCCCCC"> it be a and</font>
+to define a variable that it be a and
 
-I'm going<font color="#CCCCCC"> to type</font><font color="#E5E5E5"> in here NP dot array</font>
+I'm going to type in here NP dot array
 
-and certain<font color="#CCCCCC"> elements inside</font><font color="#E5E5E5"> it so I'm</font>
+and certain elements inside it so I'm
 
-going<font color="#CCCCCC"> to put in</font><font color="#E5E5E5"> 1 2</font><font color="#CCCCCC"> 3</font><font color="#E5E5E5"> and a print hit</font>
+going to put in 1 2 3 and a print hit
 
 that's all
 
-this will<font color="#CCCCCC"> actually print</font><font color="#E5E5E5"> a single</font>
+this will actually print a single
 
-dimensional arrays so<font color="#CCCCCC"> 1</font><font color="#E5E5E5"> 2</font><font color="#CCCCCC"> 3 has appeared</font>
+dimensional arrays so 1 2 3 has appeared
 
-now if I<font color="#CCCCCC"> wanna convert</font><font color="#E5E5E5"> this</font><font color="#CCCCCC"> to a 2d</font>
+now if I wanna convert this to a 2d
 
-<font color="#CCCCCC">array</font><font color="#E5E5E5"> so for that I'll keep this in</font>
+array so for that I'll keep this in
 
-<font color="#E5E5E5">parentheses and after a comma I'll add</font>
+parentheses and after a comma I'll add
 
-one<font color="#CCCCCC"> more element and I'm going</font><font color="#E5E5E5"> to give</font>
+one more element and I'm going to give
 
-certain<font color="#E5E5E5"> values inside that so I can give</font>
+certain values inside that so I can give
 
-<font color="#CCCCCC">say 4 5 and 6 now go ahead</font><font color="#E5E5E5"> and</font><font color="#CCCCCC"> print</font>
+say 4 5 and 6 now go ahead and print
 
-this so as you can see that it<font color="#E5E5E5"> is now a</font>
+this so as you can see that it is now a
 
-<font color="#E5E5E5">two-dimensional array so this</font><font color="#CCCCCC"> is</font><font color="#E5E5E5"> ru</font><font color="#CCCCCC"> a</font>
+two-dimensional array so this is ru a
 
-<font color="#CCCCCC">quickly at our</font><font color="#E5E5E5"> edge using num py module</font>
+quickly at our edge using num py module
 
-<font color="#E5E5E5">if you have any questions or doubts you</font>
+if you have any questions or doubts you
 
-can ask me they say<font color="#CCCCCC"> these clear so dusty</font>
+can ask me they say these clear so dusty
 
-<font color="#CCCCCC">on</font><font color="#E5E5E5"> Allen though I usually geography fine</font>
+on Allen though I usually geography fine
 
-<font color="#CCCCCC">alright so we have</font><font color="#E5E5E5"> no questions</font><font color="#CCCCCC"> so</font><font color="#E5E5E5"> now</font>
+alright so we have no questions so now
 
-I'm going<font color="#E5E5E5"> to</font><font color="#CCCCCC"> open my slides</font><font color="#E5E5E5"> and we'll</font>
+I'm going to open my slides and we'll
 
-move<font color="#CCCCCC"> forward and see what is our</font><font color="#E5E5E5"> next</font>
+move forward and see what is our next
 
-<font color="#E5E5E5">topic now let us see why I will be using</font>
+topic now let us see why I will be using
 
 numpy instead of a list
 
-<font color="#CCCCCC">all right so many of you might be</font>
+all right so many of you might be
 
-<font color="#E5E5E5">thinking</font><font color="#CCCCCC"> why are we using numpy why when</font>
+thinking why are we using numpy why when
 
-we<font color="#CCCCCC"> have lists all</font><font color="#E5E5E5"> right so basically we</font>
+we have lists all right so basically we
 
-use them<font color="#E5E5E5"> py because of three main</font>
+use them py because of three main
 
-reasons<font color="#E5E5E5"> the first thing is it occupies</font>
+reasons the first thing is it occupies
 
-less memory when compared to<font color="#CCCCCC"> lists then</font>
+less memory when compared to lists then
 
-it is actually<font color="#E5E5E5"> pretty fast when you are</font>
+it is actually pretty fast when you are
 
-<font color="#CCCCCC">compared with list</font><font color="#E5E5E5"> and at the same time</font>
+compared with list and at the same time
 
-it is very convenient<font color="#E5E5E5"> to work with numpy</font>
+it is very convenient to work with numpy
 
-<font color="#CCCCCC">Y so these are the three major</font>
+Y so these are the three major
 
-advantages<font color="#CCCCCC"> that num py has over list</font><font color="#E5E5E5"> and</font>
+advantages that num py has over list and
 
-that<font color="#E5E5E5"> is the reason why we use numpy why</font>
+that is the reason why we use numpy why
 
-instead of list<font color="#E5E5E5"> now don't worry I'm</font>
+instead of list now don't worry I'm
 
-actually going<font color="#E5E5E5"> to prove it to you</font>
+actually going to prove it to you
 
 practically by
 
-bring my<font color="#CCCCCC"> pycharm</font><font color="#E5E5E5"> so why this is my</font>
+bring my pycharm so why this is my
 
-<font color="#CCCCCC">pycharm again</font><font color="#E5E5E5"> the first thing</font><font color="#CCCCCC"> that I</font>
+pycharm again the first thing that I
 
-need<font color="#CCCCCC"> to do is import numpy why as empty</font>
+need to do is import numpy why as empty
 
-and now what I'm<font color="#E5E5E5"> going to do is I'm</font>
+and now what I'm going to do is I'm
 
-going<font color="#CCCCCC"> to</font><font color="#E5E5E5"> import a couple of more modules</font>
+going to import a couple of more modules
 
-<font color="#CCCCCC">I'm going to import time I'm going</font><font color="#E5E5E5"> to</font>
+I'm going to import time I'm going to
 
-import<font color="#CCCCCC"> sis all</font><font color="#E5E5E5"> right done</font><font color="#CCCCCC"> so our first</font>
+import sis all right done so our first
 
-step is<font color="#E5E5E5"> to actually define a list and</font>
+step is to actually define a list and
 
-the name that<font color="#CCCCCC"> I'm going</font><font color="#E5E5E5"> to give to my</font>
+the name that I'm going to give to my
 
 list is say s and I'll type in here
 
-<font color="#E5E5E5">range thousand so what this will</font>
+range thousand so what this will
 
-<font color="#CCCCCC">actually do it will actually</font><font color="#E5E5E5"> take all</font>
+actually do it will actually take all
 
-<font color="#E5E5E5">the integer values between 0 to thousand</font>
+the integer values between 0 to thousand
 
-and it will give<font color="#E5E5E5"> it</font><font color="#CCCCCC"> to a variable</font><font color="#E5E5E5"> s so</font>
+and it will give it to a variable s so
 
-this<font color="#E5E5E5"> list will contain the integer</font>
+this list will contain the integer
 
-values between 0<font color="#CCCCCC"> to 2000 but 8</font><font color="#E5E5E5"> more in</font>
+values between 0 to 2000 but 8 more in
 
-2000 it will be only<font color="#E5E5E5"> there till triple</font>
+2000 it will be only there till triple
 
-<font color="#CCCCCC">night that is 999 and now I'm going</font><font color="#E5E5E5"> to</font>
+night that is 999 and now I'm going to
 
-print the space<font color="#E5E5E5"> occupied with this</font>
+print the space occupied with this
 
-particular<font color="#CCCCCC"> listed are what I need to do</font>
+particular listed are what I need to do
 
-<font color="#E5E5E5">it in to type and print sis dot get size</font>
+it in to type and print sis dot get size
 
-<font color="#CCCCCC">off any one element okay so you</font><font color="#E5E5E5"> can give</font>
+off any one element okay so you can give
 
-3 4 5 anything I'm going<font color="#CCCCCC"> to give it as 5</font>
+3 4 5 anything I'm going to give it as 5
 
-any one element<font color="#CCCCCC"> and multiply that with</font>
+any one element and multiply that with
 
-<font color="#E5E5E5">the length of my list that's all so this</font>
+the length of my list that's all so this
 
-<font color="#E5E5E5">will</font><font color="#CCCCCC"> actually give me the space</font><font color="#E5E5E5"> that has</font>
+will actually give me the space that has
 
-<font color="#E5E5E5">been occupied</font><font color="#CCCCCC"> by the list because sis</font>
+been occupied by the list because sis
 
 dot get size off will actually give me
 
-<font color="#E5E5E5">the memory occupied by one element</font><font color="#CCCCCC"> and</font>
+the memory occupied by one element and
 
-when I multiply<font color="#CCCCCC"> that with length of my</font>
+when I multiply that with length of my
 
 list
 
-<font color="#E5E5E5">I get the entire memory that I will be</font>
+I get the entire memory that I will be
 
-occupied<font color="#CCCCCC"> by my list</font><font color="#E5E5E5"> now the same I'm</font>
+occupied by my list now the same I'm
 
-going to do with my num py<font color="#E5E5E5"> array as well</font>
+going to do with my num py array as well
 
-let me<font color="#E5E5E5"> give a name to that I'm gonna</font>
+let me give a name to that I'm gonna
 
-type in<font color="#CCCCCC"> D NP taught a range and the</font>
+type in D NP taught a range and the
 
-range will<font color="#CCCCCC"> be thousand now a range</font>
+range will be thousand now a range
 
-function<font color="#E5E5E5"> is pretty much similar to the</font>
+function is pretty much similar to the
 
-range which is there<font color="#E5E5E5"> so the same thing</font>
+range which is there so the same thing
 
-will happen<font color="#CCCCCC"> here the integer values</font>
+will happen here the integer values
 
-between 0<font color="#E5E5E5"> to thousand but it won't in</font>
+between 0 to thousand but it won't in
 
-few thousand will<font color="#CCCCCC"> be present in my</font>
+few thousand will be present in my
 
-variable<font color="#E5E5E5"> T so we have created an um py</font>
+variable T so we have created an um py
 
-array now let us print<font color="#E5E5E5"> the space</font>
+array now let us print the space
 
-occupied<font color="#CCCCCC"> by it so the first</font><font color="#E5E5E5"> thing is I'm</font>
+occupied by it so the first thing is I'm
 
-going to type<font color="#E5E5E5"> in here d dot size so this</font>
+going to type in here d dot size so this
 
-will actually<font color="#E5E5E5"> give me the space occupied</font>
+will actually give me the space occupied
 
-<font color="#CCCCCC">by one single element</font><font color="#E5E5E5"> and when I</font>
+by one single element and when I
 
-multiply<font color="#CCCCCC"> that with the</font><font color="#E5E5E5"> length of my num</font>
+multiply that with the length of my num
 
-<font color="#E5E5E5">py</font><font color="#CCCCCC"> RA</font>
+py RA
 
-I get the entire<font color="#E5E5E5"> memory that is occupied</font>
+I get the entire memory that is occupied
 
-<font color="#E5E5E5">by the numpy</font><font color="#CCCCCC"> Y array so I'm going</font><font color="#E5E5E5"> to</font>
+by the numpy Y array so I'm going to
 
-type in<font color="#E5E5E5"> here</font>
+type in here
 
-<font color="#CCCCCC">d dot item size</font><font color="#E5E5E5"> that's all now go ahead</font>
+d dot item size that's all now go ahead
 
-<font color="#E5E5E5">and</font><font color="#CCCCCC"> print</font><font color="#E5E5E5"> this so this actually shows</font>
+and print this so this actually shows
 
-the<font color="#E5E5E5"> memory that has been occupied by my</font>
+the memory that has been occupied by my
 
-list<font color="#E5E5E5"> and this shows the memory that has</font>
+list and this shows the memory that has
 
-been occupied by<font color="#CCCCCC"> my num py addict</font><font color="#E5E5E5"> so as</font>
+been occupied by my num py addict so as
 
-you can<font color="#CCCCCC"> see there is a quite a lot</font><font color="#E5E5E5"> of</font>
+you can see there is a quite a lot of
 
-difference<font color="#CCCCCC"> between both of them so we</font>
+difference between both of them so we
 
-have proved the first point<font color="#CCCCCC"> that it</font>
+have proved the first point that it
 
-actually occupies less memory<font color="#CCCCCC"> now when I</font>
+actually occupies less memory now when I
 
-talk about<font color="#E5E5E5"> num py</font><font color="#CCCCCC"> array</font><font color="#E5E5E5"> is faster and</font>
+talk about num py array is faster and
 
-<font color="#CCCCCC">more convenient than the</font><font color="#E5E5E5"> list so the</font>
+more convenient than the list so the
 
-next step is I'm going<font color="#E5E5E5"> to prove it to</font>
+next step is I'm going to prove it to
 
-<font color="#E5E5E5">you that</font><font color="#CCCCCC"> num p/yr a</font><font color="#E5E5E5"> is actually faster</font>
+you that num p/yr a is actually faster
 
-and more convenient than<font color="#E5E5E5"> list so I</font>
+and more convenient than list so I
 
-remove all of this<font color="#E5E5E5"> and so</font><font color="#CCCCCC"> now I'm</font><font color="#E5E5E5"> going</font>
+remove all of this and so now I'm going
 
-<font color="#E5E5E5">to show you that num py arrays are</font>
+to show you that num py arrays are
 
-faster than<font color="#CCCCCC"> lists</font><font color="#E5E5E5"> and at the same time</font>
+faster than lists and at the same time
 
-<font color="#E5E5E5">it is easier</font><font color="#CCCCCC"> and more convenient</font><font color="#E5E5E5"> in</font>
+it is easier and more convenient in
 
-order to work with num<font color="#E5E5E5"> py r is when</font>
+order to work with num py r is when
 
-compared<font color="#CCCCCC"> to</font><font color="#E5E5E5"> lists let me show you</font>
+compared to lists let me show you
 
-practically so first what I'm<font color="#CCCCCC"> going to</font>
+practically so first what I'm going to
 
-do is I'm<font color="#CCCCCC"> going to</font><font color="#E5E5E5"> define our variable</font>
+do is I'm going to define our variable
 
-say size which is equal<font color="#CCCCCC"> to say 1000</font><font color="#E5E5E5"> and</font>
+say size which is equal to say 1000 and
 
-then I'm going to<font color="#E5E5E5"> define two lists now</font>
+then I'm going to define two lists now
 
-what I'm going to do is I'm going<font color="#CCCCCC"> to add</font>
+what I'm going to do is I'm going to add
 
-<font color="#E5E5E5">those two lists as well as I'm going</font><font color="#CCCCCC"> to</font>
+those two lists as well as I'm going to
 
-<font color="#E5E5E5">add two</font><font color="#CCCCCC"> numbers I added which I'm going</font>
+add two numbers I added which I'm going
 
-<font color="#E5E5E5">to define now and then I'm going</font><font color="#CCCCCC"> to</font>
+to define now and then I'm going to
 
-compare the time taken in order<font color="#CCCCCC"> to find</font>
+compare the time taken in order to find
 
-the sum for<font color="#E5E5E5"> list and the sample numpy</font><font color="#CCCCCC"> y</font>
+the sum for list and the sample numpy y
 
-<font color="#E5E5E5">RS so first let me define two lists and</font>
+RS so first let me define two lists and
 
 to arrays for my first list will be
 
-<font color="#E5E5E5">equal to range size same goes for my</font>
+equal to range size same goes for my
 
 second list as well
 
-just<font color="#E5E5E5"> change the name to l2</font><font color="#CCCCCC"> and now I'm</font>
+just change the name to l2 and now I'm
 
-<font color="#E5E5E5">going to define</font><font color="#CCCCCC"> two</font><font color="#E5E5E5"> numpy virus</font><font color="#CCCCCC"> a1 equal</font>
+going to define two numpy virus a1 equal
 
-to<font color="#E5E5E5"> NP dot a range size go ahead and do</font>
+to NP dot a range size go ahead and do
 
-the same<font color="#CCCCCC"> for the second numpy</font><font color="#E5E5E5"> wide array</font>
+the same for the second numpy wide array
 
-as well and change the<font color="#E5E5E5"> name as a</font><font color="#CCCCCC"> two so</font>
+as well and change the name as a two so
 
-we have<font color="#E5E5E5"> two lists and two arrays and we</font>
+we have two lists and two arrays and we
 
-need to compute the sum of<font color="#E5E5E5"> both</font><font color="#CCCCCC"> of these</font>
+need to compute the sum of both of these
 
-lists as well<font color="#CCCCCC"> as address now before that</font>
+lists as well as address now before that
 
-<font color="#E5E5E5">I'm going to define a variable say start</font>
+I'm going to define a variable say start
 
-which<font color="#E5E5E5"> is equals to time dot time and now</font>
+which is equals to time dot time and now
 
-I'm<font color="#E5E5E5"> going to calculate the sum so I'm</font>
+I'm going to calculate the sum so I'm
 
-going<font color="#CCCCCC"> to save that in result</font><font color="#E5E5E5"> and first</font>
+going to save that in result and first
 
-I'm going<font color="#CCCCCC"> to calculate the sum of Lists</font>
+I'm going to calculate the sum of Lists
 
-that<font color="#E5E5E5"> is</font><font color="#CCCCCC"> L 1 and L 2</font><font color="#E5E5E5"> so for that what I</font>
+that is L 1 and L 2 so for that what I
 
-need to do is I need<font color="#CCCCCC"> to run a for loop</font>
+need to do is I need to run a for loop
 
-because<font color="#CCCCCC"> if I directly</font><font color="#E5E5E5"> write L 1 plus L</font><font color="#CCCCCC"> 2</font>
+because if I directly write L 1 plus L 2
 
-it is<font color="#E5E5E5"> going to give me a result which is</font>
+it is going to give me a result which is
 
-nothing but the concatenation<font color="#E5E5E5"> of both</font>
+nothing but the concatenation of both
 
-the<font color="#E5E5E5"> lists so in order to calculate the</font>
+the lists so in order to calculate the
 
-sum I need to use for loop<font color="#E5E5E5"> let me show</font>
+sum I need to use for loop let me show
 
-you how to<font color="#E5E5E5"> do that first</font>
+you how to do that first
 
 I'm going to type in X comma Y and we
 
-<font color="#CCCCCC">have already studied loops and detail</font>
+have already studied loops and detail
 
-for X comma<font color="#E5E5E5"> Y in zip and the name of the</font>
+for X comma Y in zip and the name of the
 
-<font color="#E5E5E5">tool list that is l1 comma l2 that's all</font>
+tool list that is l1 comma l2 that's all
 
-<font color="#E5E5E5">so what will happen</font><font color="#CCCCCC"> here it will</font><font color="#E5E5E5"> first</font>
+so what will happen here it will first
 
-take the<font color="#E5E5E5"> first</font><font color="#CCCCCC"> element of</font><font color="#E5E5E5"> list l1 and</font>
+take the first element of list l1 and
 
-then<font color="#E5E5E5"> it'll take the first element</font><font color="#CCCCCC"> of</font>
+then it'll take the first element of
 
-list l2 it will<font color="#E5E5E5"> go in it will calculate</font>
+list l2 it will go in it will calculate
 
-<font color="#CCCCCC">some and store in result</font><font color="#E5E5E5"> and then you</font>
+some and store in result and then you
 
-keep<font color="#E5E5E5"> on repeating until the range has</font>
+keep on repeating until the range has
 
-been<font color="#E5E5E5"> exceeded</font><font color="#CCCCCC"> now this is how</font><font color="#E5E5E5"> you</font>
+been exceeded now this is how you
 
-calculate sum in<font color="#CCCCCC"> list</font><font color="#E5E5E5"> but when you talk</font>
+calculate sum in list but when you talk
 
-about<font color="#CCCCCC"> arrays what you need to do is you</font>
+about arrays what you need to do is you
 
-need<font color="#CCCCCC"> to just write in a 1 plus a 2</font>
+need to just write in a 1 plus a 2
 
-that's all that's why I'm saying that<font color="#CCCCCC"> it</font>
+that's all that's why I'm saying that it
 
 is more convenient in order to work with
 
-num py arrays and compared<font color="#CCCCCC"> to</font><font color="#E5E5E5"> lists</font><font color="#CCCCCC"> now</font>
+num py arrays and compared to lists now
 
-our next<font color="#E5E5E5"> step is now our</font><font color="#CCCCCC"> next step is</font><font color="#E5E5E5"> to</font>
+our next step is now our next step is to
 
-define<font color="#CCCCCC"> the</font><font color="#E5E5E5"> same variable start and</font>
+define the same variable start and
 
-initialize it<font color="#CCCCCC"> with time dot time and now</font>
+initialize it with time dot time and now
 
-I'm going<font color="#E5E5E5"> to find the sum of my</font><font color="#CCCCCC"> - num py</font>
+I'm going to find the sum of my - num py
 
-<font color="#E5E5E5">RS which is nothing but a1 plus a2</font>
+RS which is nothing but a1 plus a2
 
-that's all and now print<font color="#E5E5E5"> the time taken</font>
+that's all and now print the time taken
 
 so print time dot time - start and then
 
 multiply it with thousand because by
 
-default<font color="#E5E5E5"> it will take it in seconds and I</font>
+default it will take it in seconds and I
 
-need to convert<font color="#CCCCCC"> it into milliseconds now</font>
+need to convert it into milliseconds now
 
-I forgot to actually print<font color="#E5E5E5"> the same</font>
+I forgot to actually print the same
 
-thing for my list<font color="#E5E5E5"> so I'm going to do it</font>
+thing for my list so I'm going to do it
 
-<font color="#CCCCCC">over here so this</font><font color="#E5E5E5"> will</font><font color="#CCCCCC"> actually</font><font color="#E5E5E5"> give me</font>
+over here so this will actually give me
 
-<font color="#E5E5E5">the time taken by my list in order to</font>
+the time taken by my list in order to
 
-<font color="#E5E5E5">compute the sum and this statement will</font>
+compute the sum and this statement will
 
 give me the time taken by my num py
 
-array in<font color="#CCCCCC"> order</font><font color="#E5E5E5"> to compute the sum</font><font color="#CCCCCC"> so of</font>
+array in order to compute the sum so of
 
 your clear till here if you have any
 
-<font color="#CCCCCC">doubts or</font><font color="#E5E5E5"> questions you can ask me any</font>
+doubts or questions you can ask me any
 
-questions guys<font color="#CCCCCC"> alright</font><font color="#E5E5E5"> so we have no</font>
+questions guys alright so we have no
 
-questions so<font color="#E5E5E5"> let us go ahead</font><font color="#CCCCCC"> and execute</font>
+questions so let us go ahead and execute
 
-this<font color="#E5E5E5"> and still see what happens so it</font>
+this and still see what happens so it
 
-gives me<font color="#CCCCCC"> 0</font><font color="#E5E5E5"> milliseconds</font><font color="#CCCCCC"> because the size</font>
+gives me 0 milliseconds because the size
 
-<font color="#CCCCCC">is small</font><font color="#E5E5E5"> let me star a couple more zeros</font>
+is small let me star a couple more zeros
 
-<font color="#E5E5E5">let's make it a million now go ahead and</font>
+let's make it a million now go ahead and
 
-<font color="#E5E5E5">execute this</font><font color="#CCCCCC"> now you can notice the</font>
+execute this now you can notice the
 
-difference<font color="#E5E5E5"> that there is a significant</font>
+difference that there is a significant
 
-change lists took<font color="#E5E5E5"> 208 milliseconds</font>
+change lists took 208 milliseconds
 
-<font color="#E5E5E5">whereas num p/yr it took almost 67</font>
+whereas num p/yr it took almost 67
 
-milliseconds<font color="#E5E5E5"> so there is a huge</font>
+milliseconds so there is a huge
 
-difference between<font color="#E5E5E5"> the compute time of a</font>
+difference between the compute time of a
 
-list as well<font color="#E5E5E5"> as num py array that's why</font>
+list as well as num py array that's why
 
-I say<font color="#E5E5E5"> that num py array are faster</font>
+I say that num py array are faster
 
-<font color="#E5E5E5">convenient and at the same time they</font>
+convenient and at the same time they
 
 occupy less space
 
-compared<font color="#CCCCCC"> to lists so that is the reason</font>
+compared to lists so that is the reason
 
-<font color="#E5E5E5">why we choose</font><font color="#CCCCCC"> mpy a</font><font color="#E5E5E5"> days over list if</font>
+why we choose mpy a days over list if
 
 you have any questions doubts you can
 
-ask<font color="#E5E5E5"> me any questions guys any questions</font>
+ask me any questions guys any questions
 
-<font color="#CCCCCC">alright so we</font><font color="#E5E5E5"> have no questions</font><font color="#CCCCCC"> so let</font>
+alright so we have no questions so let
 
-us go ahead<font color="#CCCCCC"> and move forward towards the</font>
+us go ahead and move forward towards the
 
-<font color="#E5E5E5">next topic</font><font color="#CCCCCC"> that is</font><font color="#E5E5E5"> num py operations so</font>
+next topic that is num py operations so
 
-let me go back<font color="#CCCCCC"> to</font><font color="#E5E5E5"> my slides so now</font><font color="#CCCCCC"> is</font>
+let me go back to my slides so now is
 
-<font color="#E5E5E5">the</font><font color="#CCCCCC"> time</font><font color="#E5E5E5"> to see various operations that</font>
+the time to see various operations that
 
-you can perform<font color="#E5E5E5"> with the num py Alice so</font>
+you can perform with the num py Alice so
 
-you can find<font color="#E5E5E5"> at the dimension of your</font>
+you can find at the dimension of your
 
-array<font color="#E5E5E5"> whether it is a</font><font color="#CCCCCC"> two-dimensional or</font>
+array whether it is a two-dimensional or
 
-<font color="#E5E5E5">a single dimensional array then you can</font>
+a single dimensional array then you can
 
-even calculate<font color="#E5E5E5"> the bite size of each</font>
+even calculate the bite size of each
 
-element<font color="#E5E5E5"> it is pretty easy I'm</font><font color="#CCCCCC"> going to</font>
+element it is pretty easy I'm going to
 
 tell you that practically you don't need
 
-to worry<font color="#CCCCCC"> about</font><font color="#E5E5E5"> that and you</font><font color="#CCCCCC"> can even</font>
+to worry about that and you can even
 
-find<font color="#CCCCCC"> the data types of the elements that</font>
+find the data types of the elements that
 
-<font color="#CCCCCC">are stored in</font><font color="#E5E5E5"> your array so if you want</font>
+are stored in your array so if you want
 
-to know what is the data type<font color="#CCCCCC"> of the</font>
+to know what is the data type of the
 
-elements<font color="#E5E5E5"> you</font><font color="#CCCCCC"> can do</font><font color="#E5E5E5"> that as well</font><font color="#CCCCCC"> so let</font>
+elements you can do that as well so let
 
-<font color="#E5E5E5">me show you these three</font><font color="#CCCCCC"> operations first</font>
+me show you these three operations first
 
-and then we'll<font color="#CCCCCC"> move forward</font><font color="#E5E5E5"> to the other</font>
+and then we'll move forward to the other
 
-operations<font color="#E5E5E5"> I'm going to open my Python</font>
+operations I'm going to open my Python
 
-<font color="#CCCCCC">ones</font><font color="#E5E5E5"> for guys let me</font><font color="#CCCCCC"> remove all of this</font>
+ones for guys let me remove all of this
 
-so we<font color="#E5E5E5"> have imported</font><font color="#CCCCCC"> the num py module</font>
+so we have imported the num py module
 
-now what I'm<font color="#E5E5E5"> going to do is I'm going</font><font color="#CCCCCC"> to</font>
+now what I'm going to do is I'm going to
 
-define<font color="#E5E5E5"> a numpy</font><font color="#CCCCCC"> Y array I'm</font><font color="#E5E5E5"> going to name</font>
+define a numpy Y array I'm going to name
 
-<font color="#CCCCCC">it as a and I'll write here n P dot</font>
+it as a and I'll write here n P dot
 
-array 1 comma 2 comma<font color="#CCCCCC"> 3</font><font color="#E5E5E5"> put that in</font>
+array 1 comma 2 comma 3 put that in
 
-<font color="#CCCCCC">parenthesis now add one more element say</font>
+parenthesis now add one more element say
 
-2 comma<font color="#CCCCCC"> 3 comma 4 all right so it's a</font>
+2 comma 3 comma 4 all right so it's a
 
-<font color="#CCCCCC">two dimensional array now if I want</font><font color="#E5E5E5"> to</font>
+two dimensional array now if I want to
 
-know whether it's a<font color="#CCCCCC"> two dimensional or</font><font color="#E5E5E5"> a</font>
+know whether it's a two dimensional or a
 
-<font color="#E5E5E5">single dimensional array so I'm just</font>
+single dimensional array so I'm just
 
-going<font color="#CCCCCC"> to type and print it dot end them</font>
+going to type and print it dot end them
 
-and<font color="#E5E5E5"> it'll give me the dimension so let</font>
+and it'll give me the dimension so let
 
-me show<font color="#E5E5E5"> you that and I'm going</font><font color="#CCCCCC"> to run</font>
+me show you that and I'm going to run
 
-this so it says<font color="#CCCCCC"> 2 that</font><font color="#E5E5E5"> means it</font><font color="#CCCCCC"> is a two</font>
+this so it says 2 that means it is a two
 
-<font color="#CCCCCC">dimensional</font><font color="#E5E5E5"> array so what if I move this</font>
+dimensional array so what if I move this
 
-part<font color="#E5E5E5"> and make it as a single dimensional</font>
+part and make it as a single dimensional
 
-array<font color="#E5E5E5"> it should give us</font><font color="#CCCCCC"> the result as</font>
+array it should give us the result as
 
-<font color="#E5E5E5">one let's see if it does that</font><font color="#CCCCCC"> or not</font><font color="#E5E5E5"> and</font>
+one let's see if it does that or not and
 
-yep it gives us one as a result<font color="#E5E5E5"> so this</font>
+yep it gives us one as a result so this
 
-<font color="#E5E5E5">is how you actually</font><font color="#CCCCCC"> calculate the</font>
+is how you actually calculate the
 
-dimension<font color="#E5E5E5"> of Ferrari now if you want to</font>
+dimension of Ferrari now if you want to
 
-find a<font color="#E5E5E5"> bite size of each</font><font color="#CCCCCC"> of the elements</font>
+find a bite size of each of the elements
 
-<font color="#CCCCCC">so what you need</font><font color="#E5E5E5"> to do is instead of</font><font color="#CCCCCC"> end</font>
+so what you need to do is instead of end
 
-<font color="#E5E5E5">him you can call a function</font><font color="#CCCCCC"> called</font><font color="#E5E5E5"> item</font>
+him you can call a function called item
 
-size<font color="#E5E5E5"> go ahead execute this and you'll</font>
+size go ahead execute this and you'll
 
-get<font color="#E5E5E5"> so each element occupies</font><font color="#CCCCCC"> 4 bytes</font>
+get so each element occupies 4 bytes
 
-<font color="#E5E5E5">after</font><font color="#CCCCCC"> if you want to know the datatype</font>
+after if you want to know the datatype
 
-<font color="#E5E5E5">that is stored in the array so</font><font color="#CCCCCC"> you can</font>
+that is stored in the array so you can
 
 just type in
 
-<font color="#E5E5E5">d-type</font><font color="#CCCCCC"> go ahead execute this it should</font>
+d-type go ahead execute this it should
 
-give us<font color="#E5E5E5"> integers integers 32-bit</font><font color="#CCCCCC"> alright</font>
+give us integers integers 32-bit alright
 
-<font color="#E5E5E5">so this is how you can</font><font color="#CCCCCC"> actually perform</font>
+so this is how you can actually perform
 
-<font color="#E5E5E5">the b3 function that I've told you in</font><font color="#CCCCCC"> my</font>
+the b3 function that I've told you in my
 
-slides<font color="#E5E5E5"> it's pretty basic if you have any</font>
+slides it's pretty basic if you have any
 
-questions<font color="#CCCCCC"> or doubts you can ask</font><font color="#E5E5E5"> me</font>
+questions or doubts you can ask me
 
-<font color="#CCCCCC">alright so we have no questions so let</font>
+alright so we have no questions so let
 
-<font color="#CCCCCC">us proceed with</font><font color="#E5E5E5"> the presentation</font><font color="#CCCCCC"> now let</font>
+us proceed with the presentation now let
 
-us move<font color="#CCCCCC"> forward</font><font color="#E5E5E5"> and see one</font><font color="#CCCCCC"> of the other</font>
+us move forward and see one of the other
 
-operations<font color="#E5E5E5"> that you can perform with</font><font color="#CCCCCC"> num</font>
+operations that you can perform with num
 
-<font color="#E5E5E5">py module so by using num PV array you</font>
+py module so by using num PV array you
 
-can<font color="#CCCCCC"> actually</font><font color="#E5E5E5"> find the size of your</font>
+can actually find the size of your
 
-<font color="#CCCCCC">addict how you can do that</font><font color="#E5E5E5"> that I will</font>
+addict how you can do that that I will
 
-show you<font color="#E5E5E5"> practically you don't need to</font>
+show you practically you don't need to
 
-worry<font color="#CCCCCC"> about that so when I say size of</font>
+worry about that so when I say size of
 
-the array<font color="#E5E5E5"> that means the total number of</font>
+the array that means the total number of
 
-<font color="#CCCCCC">elements are present at the Attic</font><font color="#E5E5E5"> so if</font>
+elements are present at the Attic so if
 
-this is an array<font color="#E5E5E5"> of the total number of</font>
+this is an array of the total number of
 
-elements<font color="#E5E5E5"> become 4 1 2 3</font><font color="#CCCCCC"> & 4</font>
+elements become 4 1 2 3 & 4
 
-now you can even find<font color="#E5E5E5"> the shape of your</font>
+now you can even find the shape of your
 
-array now what do you<font color="#E5E5E5"> mean by shape so</font>
+array now what do you mean by shape so
 
-basically the total<font color="#E5E5E5"> number of columns</font>
+basically the total number of columns
 
-and rows<font color="#E5E5E5"> now over here we have</font><font color="#CCCCCC"> 3 columns</font>
+and rows now over here we have 3 columns
 
-<font color="#E5E5E5">and four rows so our shape is actually</font>
+and four rows so our shape is actually
 
-<font color="#CCCCCC">three columns and four rows</font><font color="#E5E5E5"> now let me</font>
+three columns and four rows now let me
 
-show<font color="#E5E5E5"> you practically how you can do that</font>
+show you practically how you can do that
 
-again<font color="#CCCCCC"> I'm going to</font><font color="#E5E5E5"> open</font><font color="#CCCCCC"> my pycharm and</font>
+again I'm going to open my pycharm and
 
-show you<font color="#E5E5E5"> let me remove this print</font>
+show you let me remove this print
 
-statement from here now if<font color="#E5E5E5"> I want to</font>
+statement from here now if I want to
 
-find the size of my num py array<font color="#E5E5E5"> I just</font>
+find the size of my num py array I just
 
-need to type in print<font color="#CCCCCC"> a dot size</font><font color="#E5E5E5"> that's</font>
+need to type in print a dot size that's
 
-all you have to do and it'll<font color="#E5E5E5"> give the</font>
+all you have to do and it'll give the
 
-size<font color="#E5E5E5"> of your honor so there are three</font>
+size of your honor so there are three
 
-elements if I go<font color="#E5E5E5"> on and add some</font><font color="#CCCCCC"> more</font>
+elements if I go on and add some more
 
-<font color="#CCCCCC">elements say 4 5 6 7</font>
+elements say 4 5 6 7
 
-then if I execute<font color="#E5E5E5"> this you'll</font><font color="#CCCCCC"> see</font><font color="#E5E5E5"> that</font>
+then if I execute this you'll see that
 
-<font color="#CCCCCC">seven</font><font color="#E5E5E5"> elements have appeared that means</font>
+seven elements have appeared that means
 
-the total number of<font color="#CCCCCC"> elements in my array</font>
+the total number of elements in my array
 
-is<font color="#E5E5E5"> 7 then comes the shape part that I</font>
+is 7 then comes the shape part that I
 
-was<font color="#E5E5E5"> talking</font><font color="#CCCCCC"> about</font><font color="#E5E5E5"> so in order to find</font>
+was talking about so in order to find
 
-<font color="#CCCCCC">the shape what</font><font color="#E5E5E5"> you can do is you can</font>
+the shape what you can do is you can
 
-just<font color="#E5E5E5"> type in</font><font color="#CCCCCC"> here a dot shape and it</font>
+just type in here a dot shape and it
 
-will give you the shape so let<font color="#CCCCCC"> us see</font>
+will give you the shape so let us see
 
-what happens<font color="#CCCCCC"> so it has 7</font><font color="#E5E5E5"> columns but</font>
+what happens so it has 7 columns but
 
-there are no rows so it has given<font color="#E5E5E5"> 7</font>
+there are no rows so it has given 7
 
-comma<font color="#E5E5E5"> black so what I can do is I can</font>
+comma black so what I can do is I can
 
-close this in<font color="#CCCCCC"> parenthesis and I can</font>
+close this in parenthesis and I can
 
-define one<font color="#CCCCCC"> more element say</font><font color="#E5E5E5"> 8 9 10 11 12</font>
+define one more element say 8 9 10 11 12
 
-<font color="#E5E5E5">13 14</font><font color="#CCCCCC"> go ahead and execute this and</font><font color="#E5E5E5"> you</font>
+13 14 go ahead and execute this and you
 
-can see<font color="#CCCCCC"> 2 comma</font><font color="#E5E5E5"> 7 because we have two</font>
+can see 2 comma 7 because we have two
 
-rows and<font color="#CCCCCC"> seven columns available</font><font color="#E5E5E5"> with us</font>
+rows and seven columns available with us
 
-so this<font color="#E5E5E5"> is</font><font color="#CCCCCC"> how</font><font color="#E5E5E5"> you can actually find the</font>
+so this is how you can actually find the
 
 size of your array as well as you can
 
-<font color="#E5E5E5">find the shape of your array now let us</font>
+find the shape of your array now let us
 
-move forward<font color="#CCCCCC"> and</font><font color="#E5E5E5"> see what are the</font><font color="#CCCCCC"> other</font>
+move forward and see what are the other
 
-operations<font color="#E5E5E5"> that you can perform with num</font>
+operations that you can perform with num
 
-<font color="#E5E5E5">py module so we saw how to find the size</font>
+py module so we saw how to find the size
 
-and the shape of an array so<font color="#E5E5E5"> we can</font>
+and the shape of an array so we can
 
-perform reshape<font color="#E5E5E5"> as well as slicing</font>
+perform reshape as well as slicing
 
-operation using<font color="#CCCCCC"> numpy why</font>
+operation using numpy why
 
-now when I talk about reshape<font color="#E5E5E5"> what do</font>
+now when I talk about reshape what do
 
-you actually mean<font color="#CCCCCC"> by reship can I get</font>
+you actually mean by reship can I get
 
-some<font color="#CCCCCC"> answers guys anyone</font>
+some answers guys anyone
 
-<font color="#E5E5E5">all right</font><font color="#CCCCCC"> so Devon says when you change</font>
+all right so Devon says when you change
 
-the number of<font color="#E5E5E5"> rows and columns</font><font color="#CCCCCC"> that</font><font color="#E5E5E5"> is</font>
+the number of rows and columns that is
 
-called reshaping<font color="#CCCCCC"> all</font><font color="#E5E5E5"> right fine that is</font>
+called reshaping all right fine that is
 
-absolutely corrective on and<font color="#E5E5E5"> I've got</font>
+absolutely corrective on and I've got
 
-correct answers from other<font color="#E5E5E5"> people as</font>
+correct answers from other people as
 
-well<font color="#CCCCCC"> our nails will say the same so does</font>
+well our nails will say the same so does
 
-<font color="#CCCCCC">Jason Janice jaggedy all</font><font color="#E5E5E5"> right fine</font>
+Jason Janice jaggedy all right fine
 
-so<font color="#E5E5E5"> if that is absolutely correct guys</font>
+so if that is absolutely correct guys
 
-now over here there<font color="#CCCCCC"> is an</font><font color="#E5E5E5"> example so we</font>
+now over here there is an example so we
 
-<font color="#CCCCCC">have</font><font color="#E5E5E5"> three columns and two rows which we</font>
+have three columns and two rows which we
 
-have converted<font color="#E5E5E5"> to two</font><font color="#CCCCCC"> columns and 3 rows</font>
+have converted to two columns and 3 rows
 
-<font color="#E5E5E5">now let me show you</font><font color="#CCCCCC"> that practically how</font>
+now let me show you that practically how
 
-you can do<font color="#E5E5E5"> it in a variable and I'm</font>
+you can do it in a variable and I'm
 
-going to<font color="#E5E5E5"> start</font><font color="#CCCCCC"> a num Pira</font><font color="#E5E5E5"> and I'll have</font>
+going to start a num Pira and I'll have
 
-<font color="#E5E5E5">two elements</font><font color="#CCCCCC"> in that</font><font color="#E5E5E5"> my first element</font>
+two elements in that my first element
 
-will be<font color="#CCCCCC"> 1 comma</font><font color="#E5E5E5"> 2</font><font color="#CCCCCC"> comma 3 comma 4</font><font color="#E5E5E5"> and my</font>
+will be 1 comma 2 comma 3 comma 4 and my
 
 other element will be say 3 comma 4
 
-comma 5<font color="#E5E5E5"> comma 6</font><font color="#CCCCCC"> so I have a</font>
+comma 5 comma 6 so I have a
 
-<font color="#CCCCCC">two-dimensional array that contains 2</font>
+two-dimensional array that contains 2
 
-rows and<font color="#CCCCCC"> 4 columns</font><font color="#E5E5E5"> now I can convert</font>
+rows and 4 columns now I can convert
 
-<font color="#E5E5E5">that to</font><font color="#CCCCCC"> 4 rows into columns let me show</font>
+that to 4 rows into columns let me show
 
-you how<font color="#E5E5E5"> to do that you're</font><font color="#CCCCCC"> just</font><font color="#E5E5E5"> going</font><font color="#CCCCCC"> to</font>
+you how to do that you're just going to
 
-type in<font color="#E5E5E5"> a is equal to 8 dot reshape and</font>
+type in a is equal to 8 dot reshape and
 
-<font color="#CCCCCC">I'm going to</font><font color="#E5E5E5"> convert</font><font color="#CCCCCC"> it to say 4 rows</font>
+I'm going to convert it to say 4 rows
 
-and 2 columns<font color="#CCCCCC"> go ahead and trim this so</font>
+and 2 columns go ahead and trim this so
 
-it has converted<font color="#E5E5E5"> that to 4 rows and 2</font>
+it has converted that to 4 rows and 2
 
-columns as you<font color="#CCCCCC"> can see</font><font color="#E5E5E5"> in front of your</font>
+columns as you can see in front of your
 
-<font color="#E5E5E5">screen now let me show you</font><font color="#CCCCCC"> that earlier</font>
+screen now let me show you that earlier
 
-<font color="#E5E5E5">this is</font><font color="#CCCCCC"> not the case I'm going to type</font>
+this is not the case I'm going to type
 
-<font color="#E5E5E5">in a print statement</font><font color="#CCCCCC"> here as well in</font>
+in a print statement here as well in
 
-order<font color="#E5E5E5"> to show you that how it has</font>
+order to show you that how it has
 
-reshaped<font color="#E5E5E5"> so earlier we had four columns</font>
+reshaped so earlier we had four columns
 
-as well<font color="#E5E5E5"> as two rows but now we have two</font>
+as well as two rows but now we have two
 
-columns are four rows<font color="#CCCCCC"> so this is how you</font>
+columns are four rows so this is how you
 
-can perform<font color="#E5E5E5"> the reshape operation now</font>
+can perform the reshape operation now
 
-let us talk<font color="#E5E5E5"> about slicing so slicing is</font>
+let us talk about slicing so slicing is
 
-<font color="#E5E5E5">basically extracting particular set of</font>
+basically extracting particular set of
 
-<font color="#E5E5E5">elements from your</font><font color="#CCCCCC"> array and the slicing</font>
+elements from your array and the slicing
 
-operation that<font color="#E5E5E5"> happens there is pretty</font>
+operation that happens there is pretty
 
-<font color="#E5E5E5">much similar to</font><font color="#CCCCCC"> the one which is there</font>
+much similar to the one which is there
 
-in<font color="#CCCCCC"> lists as</font><font color="#E5E5E5"> well so suppose if I want</font>
+in lists as well so suppose if I want
 
-only<font color="#E5E5E5"> this particular</font><font color="#CCCCCC"> element that is 3</font>
+only this particular element that is 3
 
-so for that what I need to<font color="#E5E5E5"> print</font>
+so for that what I need to print
 
 I'll show you print a and the index
 
-<font color="#E5E5E5">value</font><font color="#CCCCCC"> of 3 which is</font><font color="#E5E5E5"> present</font><font color="#CCCCCC"> at 0 comma</font>
+value of 3 which is present at 0 comma
 
-and the index is<font color="#E5E5E5"> 2</font><font color="#CCCCCC"> let</font><font color="#E5E5E5"> me tell you how</font>
+and the index is 2 let me tell you how
 
-indexing happens<font color="#E5E5E5"> so this element will be</font>
+indexing happens so this element will be
 
-0<font color="#E5E5E5"> this element</font><font color="#CCCCCC"> will be 1 now if I want 3</font>
+0 this element will be 1 now if I want 3
 
-from<font color="#E5E5E5"> here</font>
+from here
 
-the from the zeroth element<font color="#CCCCCC"> I want</font><font color="#E5E5E5"> the</font>
+the from the zeroth element I want the
 
-index<font color="#E5E5E5"> to indexing starts from</font><font color="#CCCCCC"> 0 1 & 2</font><font color="#E5E5E5"> so</font>
+index to indexing starts from 0 1 & 2 so
 
-<font color="#CCCCCC">that's</font><font color="#E5E5E5"> why</font><font color="#CCCCCC"> I've written 0 comma 2 and it</font>
+that's why I've written 0 comma 2 and it
 
-should print<font color="#E5E5E5"> 3 for me let</font><font color="#CCCCCC"> us see if it</font>
+should print 3 for me let us see if it
 
-does<font color="#CCCCCC"> that or not</font><font color="#E5E5E5"> and yep it prints 3 now</font>
+does that or not and yep it prints 3 now
 
-say if I want to print 4<font color="#CCCCCC"> & 6 now for</font>
+say if I want to print 4 & 6 now for
 
-<font color="#E5E5E5">that what I need to do is I need</font><font color="#CCCCCC"> to</font>
+that what I need to do is I need to
 
-remove this<font color="#E5E5E5"> 2</font><font color="#CCCCCC"> here and I'm going</font><font color="#E5E5E5"> to put</font>
+remove this 2 here and I'm going to put
 
-a colon<font color="#E5E5E5"> that says all the rules</font>
+a colon that says all the rules
 
-including<font color="#E5E5E5"> 0 and in that row I want only</font>
+including 0 and in that row I want only
 
-<font color="#E5E5E5">index 3</font><font color="#CCCCCC"> so we have only 2 rows</font><font color="#E5E5E5"> so if I</font>
+index 3 so we have only 2 rows so if I
 
-would have<font color="#E5E5E5"> written 0 colon 1 then it</font>
+would have written 0 colon 1 then it
 
-wouldn't<font color="#E5E5E5"> have included this particular</font>
+wouldn't have included this particular
 
-row<font color="#E5E5E5"> so if I have one more element here</font>
+row so if I have one more element here
 
-<font color="#E5E5E5">so I can actually write here</font><font color="#CCCCCC"> too so that</font>
+so I can actually write here too so that
 
-would actually<font color="#E5E5E5"> include the element which</font>
+would actually include the element which
 
-<font color="#CCCCCC">is present of the second index</font><font color="#E5E5E5"> so when I</font>
+is present of the second index so when I
 
-say 0 colon<font color="#CCCCCC"> this actually means all the</font>
+say 0 colon this actually means all the
 
-rows<font color="#CCCCCC"> that infused 0 as well</font><font color="#E5E5E5"> so we have</font>
+rows that infused 0 as well so we have
 
-only<font color="#CCCCCC"> 2 rows</font><font color="#E5E5E5"> it will include both</font><font color="#CCCCCC"> the</font>
+only 2 rows it will include both the
 
-rows and at the same time<font color="#E5E5E5"> it will</font>
+rows and at the same time it will
 
 actually going to print the third index
 
-from both of<font color="#CCCCCC"> these rows</font><font color="#E5E5E5"> so let me show</font>
+from both of these rows so let me show
 
-<font color="#E5E5E5">you if that happens or</font><font color="#CCCCCC"> not</font><font color="#E5E5E5"> and yep it</font>
+you if that happens or not and yep it
 
-happens we have<font color="#E5E5E5"> 4</font><font color="#CCCCCC"> &</font><font color="#E5E5E5"> 6 available with us</font>
+happens we have 4 & 6 available with us
 
 now just to remove confusion what I'm
 
-going to do is I'm going<font color="#CCCCCC"> to add one more</font>
+going to do is I'm going to add one more
 
-<font color="#E5E5E5">element</font><font color="#CCCCCC"> and I'm going to</font><font color="#E5E5E5"> give values to</font>
+element and I'm going to give values to
 
-<font color="#E5E5E5">it say seven eight nine and</font><font color="#CCCCCC"> ten</font>
+it say seven eight nine and ten
 
-so now if I want<font color="#E5E5E5"> four and six</font><font color="#CCCCCC"> I can't</font>
+so now if I want four and six I can't
 
-<font color="#E5E5E5">just write 0 colon because if I do that</font>
+just write 0 colon because if I do that
 
-<font color="#CCCCCC">it'll print 10 as well let me show you</font>
+it'll print 10 as well let me show you
 
-<font color="#CCCCCC">that</font><font color="#E5E5E5"> yep it has printed 10 now in order</font>
+that yep it has printed 10 now in order
 
-to avoid<font color="#CCCCCC"> that what I can do is I can</font>
+to avoid that what I can do is I can
 
-write in here<font color="#CCCCCC"> too so I've told</font><font color="#E5E5E5"> you this</font>
+write in here too so I've told you this
 
-<font color="#E5E5E5">is the</font><font color="#CCCCCC"> 0th element first element and the</font>
+is the 0th element first element and the
 
-second element so when<font color="#E5E5E5"> I write 0 colon -</font>
+second element so when I write 0 colon -
 
 it won't include this second element
 
-<font color="#CCCCCC">he'll</font><font color="#E5E5E5"> only</font><font color="#CCCCCC"> infused</font><font color="#E5E5E5"> 0 as well as the</font>
+he'll only infused 0 as well as the
 
-first<font color="#E5E5E5"> element now inside that we have</font>
+first element now inside that we have
 
-index 3 from both<font color="#E5E5E5"> of these rows that</font><font color="#CCCCCC"> is</font>
+index 3 from both of these rows that is
 
-<font color="#E5E5E5">I will actually get 4 and 6 never see if</font>
+I will actually get 4 and 6 never see if
 
-that<font color="#E5E5E5"> happens or not and you can see 4</font><font color="#CCCCCC"> &</font>
+that happens or not and you can see 4 &
 
-6 is now available so<font color="#E5E5E5"> this is all you</font>
+6 is now available so this is all you
 
-<font color="#CCCCCC">can perform slicing when we</font><font color="#E5E5E5"> in numpy</font><font color="#CCCCCC"> by</font>
+can perform slicing when we in numpy by
 
-<font color="#E5E5E5">RS now what I'm going to do is I'm going</font>
+RS now what I'm going to do is I'm going
 
-<font color="#CCCCCC">to type in a equal to NP dot line space</font>
+to type in a equal to NP dot line space
 
-<font color="#E5E5E5">and now over here first I write 1 comma</font>
+and now over here first I write 1 comma
 
-<font color="#E5E5E5">say 3 and I want say 5 values between 1</font>
+say 3 and I want say 5 values between 1
 
-comma 3<font color="#E5E5E5"> what this will do is</font><font color="#CCCCCC"> it'll</font>
+comma 3 what this will do is it'll
 
-<font color="#E5E5E5">actually print the</font><font color="#CCCCCC"> five</font><font color="#E5E5E5"> values which are</font>
+actually print the five values which are
 
-equally<font color="#E5E5E5"> spaced between</font><font color="#CCCCCC"> one two three so</font>
+equally spaced between one two three so
 
-let me print this first I'm going<font color="#E5E5E5"> to</font>
+let me print this first I'm going to
 
-<font color="#E5E5E5">type</font><font color="#CCCCCC"> in print a and go ahead exit</font>
+type in print a and go ahead exit
 
-<font color="#CCCCCC">you this and you can see that we have</font>
+you this and you can see that we have
 
-one then we<font color="#CCCCCC"> have 1.5 then we have to 2.5</font>
+one then we have 1.5 then we have to 2.5
 
-as well as<font color="#CCCCCC"> 3</font><font color="#E5E5E5"> so if I would have written</font>
+as well as 3 so if I would have written
 
-here<font color="#CCCCCC"> 10 it'll actually give me</font><font color="#E5E5E5"> 10 values</font>
+here 10 it'll actually give me 10 values
 
-<font color="#E5E5E5">between 1 2 3</font><font color="#CCCCCC"> and yep you can see we</font>
+between 1 2 3 and yep you can see we
 
-have<font color="#CCCCCC"> 2</font><font color="#E5E5E5"> 10 values between 1 2 3 so this</font>
+have 2 10 values between 1 2 3 so this
 
-is<font color="#CCCCCC"> how you can perform line spacing as</font>
+is how you can perform line spacing as
 
-well<font color="#E5E5E5"> so any questions or any doubts till</font>
+well so any questions or any doubts till
 
-now guys you can<font color="#E5E5E5"> ask me so there are no</font>
+now guys you can ask me so there are no
 
-<font color="#E5E5E5">questions will</font><font color="#CCCCCC"> be open</font><font color="#E5E5E5"> my slides and</font>
+questions will be open my slides and
 
-<font color="#E5E5E5">we'll see what other operations that you</font>
+we'll see what other operations that you
 
-can perform with<font color="#E5E5E5"> numpy why so we saw how</font>
+can perform with numpy why so we saw how
 
-to<font color="#E5E5E5"> perform reshaping and slicing now let</font>
+to perform reshaping and slicing now let
 
-us see what<font color="#CCCCCC"> are the other operations</font><font color="#E5E5E5"> so</font>
+us see what are the other operations so
 
-<font color="#E5E5E5">we are now going to</font><font color="#CCCCCC"> find</font><font color="#E5E5E5"> out the minimum</font>
+we are now going to find out the minimum
 
 maximum as well as the sum of our numpy
 
-<font color="#E5E5E5">by</font><font color="#CCCCCC"> arrays so let us go ahead</font><font color="#E5E5E5"> and execute</font>
+by arrays so let us go ahead and execute
 
-<font color="#E5E5E5">that practically let me remove all of</font>
+that practically let me remove all of
 
-this<font color="#E5E5E5"> and now I'm going to find one more</font>
+this and now I'm going to find one more
 
-<font color="#E5E5E5">num py ra</font><font color="#CCCCCC"> n P dot array</font><font color="#E5E5E5"> and I want</font>
+num py ra n P dot array and I want
 
-elements in it say 1 2<font color="#CCCCCC"> 3</font><font color="#E5E5E5"> now if</font><font color="#CCCCCC"> I want</font>
+elements in it say 1 2 3 now if I want
 
-to<font color="#E5E5E5"> find the element which has the</font>
+to find the element which has the
 
-maximum<font color="#CCCCCC"> value so what I can do is I can</font>
+maximum value so what I can do is I can
 
-<font color="#E5E5E5">just type in</font><font color="#CCCCCC"> here</font><font color="#E5E5E5"> friend</font><font color="#CCCCCC"> a dot max</font>
+just type in here friend a dot max
 
-<font color="#CCCCCC">that's all and it</font><font color="#E5E5E5"> will give me the</font>
+that's all and it will give me the
 
-maximum value in my a numpy<font color="#CCCCCC"> yr a which</font>
+maximum value in my a numpy yr a which
 
-is<font color="#E5E5E5"> 3</font><font color="#CCCCCC"> obviously if I want to find</font><font color="#E5E5E5"> minimum</font>
+is 3 obviously if I want to find minimum
 
-<font color="#E5E5E5">value so</font><font color="#CCCCCC"> I'm just</font><font color="#E5E5E5"> going to type in here</font>
+value so I'm just going to type in here
 
 min and we print the same for me which
 
-<font color="#CCCCCC">is</font><font color="#E5E5E5"> 1 now if I want to calculate sum it</font>
+is 1 now if I want to calculate sum it
 
-is<font color="#E5E5E5"> pretty easy</font><font color="#CCCCCC"> just go on and type sum</font>
+is pretty easy just go on and type sum
 
-and it<font color="#E5E5E5"> will give you this sum that's all</font>
+and it will give you this sum that's all
 
-guys<font color="#E5E5E5"> it start simple</font><font color="#CCCCCC"> I pretty</font><font color="#E5E5E5"> sure there</font>
+guys it start simple I pretty sure there
 
 won't be any doubts here if there are
 
-<font color="#CCCCCC">you can</font><font color="#E5E5E5"> just ask me fine so there are no</font>
+you can just ask me fine so there are no
 
-doubt so Johnny's<font color="#CCCCCC"> have the question</font>
+doubt so Johnny's have the question
 
-she's asking me<font color="#E5E5E5"> is it</font><font color="#CCCCCC"> that</font><font color="#E5E5E5"> simple to</font>
+she's asking me is it that simple to
 
-work with<font color="#E5E5E5"> non py already on it so let me</font>
+work with non py already on it so let me
 
-tell you that whatever<font color="#E5E5E5"> I'm telling you</font>
+tell you that whatever I'm telling you
 
-these<font color="#CCCCCC"> are all</font><font color="#E5E5E5"> the basics that</font><font color="#CCCCCC"> you</font>
+these are all the basics that you
 
-require<font color="#E5E5E5"> after that whatever your</font>
+require after that whatever your
 
-requirement<font color="#CCCCCC"> is there on</font><font color="#E5E5E5"> that basis you</font>
+requirement is there on that basis you
 
-<font color="#E5E5E5">need to use those basic knowledge that</font>
+need to use those basic knowledge that
 
-you have<font color="#E5E5E5"> and implement it now the best</font>
+you have and implement it now the best
 
 way to do that now the best way to
 
-understand<font color="#E5E5E5"> any programming language is</font>
+understand any programming language is
 
-to play around<font color="#E5E5E5"> with it</font><font color="#CCCCCC"> so you know the</font>
+to play around with it so you know the
 
-basics with the help of<font color="#E5E5E5"> those basics</font>
+basics with the help of those basics
 
-just install<font color="#E5E5E5"> Python first and try out</font>
+just install Python first and try out
 
-<font color="#CCCCCC">new things like how should I get</font><font color="#E5E5E5"> that</font>
+new things like how should I get that
 
-how should<font color="#CCCCCC"> I get this and if I'm not</font>
+how should I get this and if I'm not
 
-<font color="#E5E5E5">getting it what is the reason</font><font color="#CCCCCC"> behind it</font>
+getting it what is the reason behind it
 
-so go on<font color="#CCCCCC"> and try to</font><font color="#E5E5E5"> discover new new</font>
+so go on and try to discover new new
 
-<font color="#E5E5E5">things so the conclusion is you need</font><font color="#CCCCCC"> to</font>
+things so the conclusion is you need to
 
-<font color="#CCCCCC">actually</font><font color="#E5E5E5"> perform things practically you</font>
+actually perform things practically you
 
-need to make sure<font color="#CCCCCC"> that</font><font color="#E5E5E5"> you are not only</font>
+need to make sure that you are not only
 
-<font color="#E5E5E5">getting the theoretical knowledge you</font>
+getting the theoretical knowledge you
 
-need<font color="#E5E5E5"> to perform it practically that's</font>
+need to perform it practically that's
 
-why I always<font color="#E5E5E5"> say the</font><font color="#CCCCCC"> type</font>
+why I always say the type
 
-I<font color="#CCCCCC"> said when I'm executing these</font>
+I said when I'm executing these
 
-particles you need to do<font color="#E5E5E5"> that</font><font color="#CCCCCC"> as well</font>
+particles you need to do that as well
 
-<font color="#E5E5E5">although you might find it pretty basic</font>
+although you might find it pretty basic
 
-<font color="#E5E5E5">but with the help of this knowledge</font><font color="#CCCCCC"> you</font>
+but with the help of this knowledge you
 
-can<font color="#E5E5E5"> perform a lot bigger tasks as well</font>
+can perform a lot bigger tasks as well
 
-<font color="#E5E5E5">all right the</font><font color="#CCCCCC"> Janus looks happy now so</font>
+all right the Janus looks happy now so
 
-let's<font color="#E5E5E5"> move</font><font color="#CCCCCC"> forward to the slides so now</font>
+let's move forward to the slides so now
 
-comes the axis concept here guys<font color="#E5E5E5"> it is</font>
+comes the axis concept here guys it is
 
-pretty similar<font color="#CCCCCC"> we have an umpire array</font>
+pretty similar we have an umpire array
 
-which looks like<font color="#E5E5E5"> this and</font><font color="#CCCCCC"> zeros are</font>
+which looks like this and zeros are
 
-<font color="#E5E5E5">called axis</font><font color="#CCCCCC"> one and columns are</font><font color="#E5E5E5"> call</font>
+called axis one and columns are call
 
-<font color="#CCCCCC">axes zero</font>
+axes zero
 
-now you must be thinking<font color="#E5E5E5"> what is the use</font>
+now you must be thinking what is the use
 
-of<font color="#E5E5E5"> this axis suppose if you want to</font>
+of this axis suppose if you want to
 
 calculate the sum of all the rows then
 
-you can actually<font color="#E5E5E5"> use the axis and you</font>
+you can actually use the axis and you
 
-can do that<font color="#E5E5E5"> now let me show you</font>
+can do that now let me show you
 
-practically how it happens<font color="#E5E5E5"> I'm going to</font>
+practically how it happens I'm going to
 
-<font color="#E5E5E5">open my pie charm again and I'm going to</font>
+open my pie charm again and I'm going to
 
-show it<font color="#E5E5E5"> to let me remove this and let me</font>
+show it to let me remove this and let me
 
-add one<font color="#CCCCCC"> more element here 3 comma 4</font>
+add one more element here 3 comma 4
 
-comma 5 all right so if I want<font color="#E5E5E5"> to find</font>
+comma 5 all right so if I want to find
 
-the sum of<font color="#CCCCCC"> axis 0</font>
+the sum of axis 0
 
-it's very very easy<font color="#E5E5E5"> just go on and</font><font color="#CCCCCC"> type</font>
+it's very very easy just go on and type
 
-print<font color="#E5E5E5"> a dot sum and type in axis equal</font>
+print a dot sum and type in axis equal
 
-<font color="#E5E5E5">to</font><font color="#CCCCCC"> 0</font><font color="#E5E5E5"> go ahead and print</font><font color="#CCCCCC"> this</font><font color="#E5E5E5"> and you can</font>
+to 0 go ahead and print this and you can
 
-see 4 6<font color="#CCCCCC"> & 8 1 plus 3 is 4 2 plus</font><font color="#E5E5E5"> 4 is 6</font>
+see 4 6 & 8 1 plus 3 is 4 2 plus 4 is 6
 
-similarly three plus five is eight<font color="#E5E5E5"> if I</font>
+similarly three plus five is eight if I
 
-make this as axis<font color="#CCCCCC"> one</font><font color="#E5E5E5"> and print this so</font>
+make this as axis one and print this so
 
-it<font color="#E5E5E5"> gives me 6 and 12 because</font><font color="#CCCCCC"> 3 plus 2</font>
+it gives me 6 and 12 because 3 plus 2
 
-plus<font color="#CCCCCC"> 1</font><font color="#E5E5E5"> is</font><font color="#CCCCCC"> 6 similarly 4 plus 5 plus 3 is</font>
+plus 1 is 6 similarly 4 plus 5 plus 3 is
 
-12<font color="#E5E5E5"> so this is pretty</font><font color="#CCCCCC"> easy</font><font color="#E5E5E5"> I</font><font color="#CCCCCC"> know</font><font color="#E5E5E5"> now let</font>
+12 so this is pretty easy I know now let
 
-us go<font color="#CCCCCC"> back to</font><font color="#E5E5E5"> our</font><font color="#CCCCCC"> slide and see what are</font>
+us go back to our slide and see what are
 
-the other operations<font color="#E5E5E5"> so there are many</font>
+the other operations so there are many
 
-mathematical<font color="#E5E5E5"> functions that you can</font>
+mathematical functions that you can
 
-perform<font color="#E5E5E5"> with numpy why that is to find</font>
+perform with numpy why that is to find
 
-<font color="#CCCCCC">the square root of</font><font color="#E5E5E5"> each element</font><font color="#CCCCCC"> you can</font>
+the square root of each element you can
 
-<font color="#E5E5E5">even find the standard deviation</font><font color="#CCCCCC"> all</font>
+even find the standard deviation all
 
-<font color="#E5E5E5">right so we</font><font color="#CCCCCC"> have a question popped on my</font>
+right so we have a question popped on my
 
-screen<font color="#E5E5E5"> and dave is asking me what</font>
+screen and dave is asking me what
 
-<font color="#CCCCCC">exactly you mean</font><font color="#E5E5E5"> by standard</font><font color="#CCCCCC"> deviation</font>
+exactly you mean by standard deviation
 
-or<font color="#E5E5E5"> it's a standard</font><font color="#CCCCCC"> deviation basically</font>
+or it's a standard deviation basically
 
-means<font color="#CCCCCC"> that whatever the</font><font color="#E5E5E5"> elements that</font>
+means that whatever the elements that
 
-<font color="#E5E5E5">are there in your</font><font color="#CCCCCC"> npy</font><font color="#E5E5E5"> are a do you find</font>
+are there in your npy are a do you find
 
-the mean of<font color="#CCCCCC"> that</font><font color="#E5E5E5"> and you actually find</font>
+the mean of that and you actually find
 
-out how much<font color="#E5E5E5"> each element deviates from</font>
+out how much each element deviates from
 
-<font color="#CCCCCC">that means that exactly is standard</font>
+that means that exactly is standard
 
-<font color="#CCCCCC">deviation</font><font color="#E5E5E5"> I hope this answers a question</font>
+deviation I hope this answers a question
 
-<font color="#E5E5E5">all right</font><font color="#CCCCCC"> so these two operations</font><font color="#E5E5E5"> can be</font>
+all right so these two operations can be
 
-performed with<font color="#E5E5E5"> the</font><font color="#CCCCCC"> help of numpy why you</font>
+performed with the help of numpy why you
 
-can find<font color="#CCCCCC"> the square root</font><font color="#E5E5E5"> you can find</font>
+can find the square root you can find
 
 the standard deviation now let me show
 
-<font color="#E5E5E5">you that how you can do it</font>
+you that how you can do it
 
-this<font color="#E5E5E5"> is my</font><font color="#CCCCCC"> pie charm again so now I'm</font>
+this is my pie charm again so now I'm
 
-going<font color="#E5E5E5"> to remove this print</font><font color="#CCCCCC"> statement</font>
+going to remove this print statement
 
 here
 
-<font color="#CCCCCC">I want to</font><font color="#E5E5E5"> print the square root of each</font>
+I want to print the square root of each
 
-<font color="#CCCCCC">of the</font><font color="#E5E5E5"> elements</font><font color="#CCCCCC"> that are there</font><font color="#E5E5E5"> in Magnum</font>
+of the elements that are there in Magnum
 
-<font color="#E5E5E5">PU IRA which is actually assigned to a</font>
+PU IRA which is actually assigned to a
 
-<font color="#CCCCCC">variable a so I'm</font><font color="#E5E5E5"> going to type in her</font>
+variable a so I'm going to type in her
 
-print<font color="#CCCCCC"> n P dot s QR T that is square root</font>
+print n P dot s QR T that is square root
 
-of<font color="#E5E5E5"> mine</font><font color="#CCCCCC"> mpy array</font><font color="#E5E5E5"> a go ahead and execute</font>
+of mine mpy array a go ahead and execute
 
-this and it<font color="#E5E5E5"> is actually printed</font><font color="#CCCCCC"> the</font>
+this and it is actually printed the
 
-square root<font color="#E5E5E5"> of each</font><font color="#CCCCCC"> of the</font><font color="#E5E5E5"> elements</font><font color="#CCCCCC"> of</font>
+square root of each of the elements of
 
-the square root of<font color="#E5E5E5"> 1</font><font color="#CCCCCC"> is 1 for 2 it is</font><font color="#E5E5E5"> 1</font>
+the square root of 1 is 1 for 2 it is 1
 
-<font color="#CCCCCC">point</font><font color="#E5E5E5"> 4 1 4</font><font color="#CCCCCC"> 4 3</font><font color="#E5E5E5"> it is 1.73</font><font color="#CCCCCC"> I gave a 3 it</font>
+point 4 1 4 4 3 it is 1.73 I gave a 3 it
 
-is<font color="#E5E5E5"> 1.73 then for 4 it is 2 then</font><font color="#CCCCCC"> for five</font>
+is 1.73 then for 4 it is 2 then for five
 
-it<font color="#E5E5E5"> is 2 point 2 3 this is how you can</font>
+it is 2 point 2 3 this is how you can
 
-find<font color="#CCCCCC"> the square root of</font><font color="#E5E5E5"> each</font><font color="#CCCCCC"> of the</font>
+find the square root of each of the
 
-element now when I talk<font color="#E5E5E5"> about standard</font>
+element now when I talk about standard
 
-<font color="#CCCCCC">deviation so you can find that</font><font color="#E5E5E5"> by typing</font>
+deviation so you can find that by typing
 
-here<font color="#E5E5E5"> so now if I</font><font color="#CCCCCC"> want to find</font><font color="#E5E5E5"> it started</font>
+here so now if I want to find it started
 
 deviation what I need to do is instead
 
-of<font color="#CCCCCC"> sq RT I will just type in an STD</font><font color="#E5E5E5"> and</font>
+of sq RT I will just type in an STD and
 
-<font color="#E5E5E5">it will give you the standard deviation</font>
+it will give you the standard deviation
 
-<font color="#E5E5E5">that is how much each element varies</font>
+that is how much each element varies
 
-from the<font color="#E5E5E5"> mean value</font><font color="#CCCCCC"> of</font><font color="#E5E5E5"> mynum</font><font color="#CCCCCC"> py re</font><font color="#E5E5E5"> and</font>
+from the mean value of mynum py re and
 
-this is the<font color="#E5E5E5"> standard deviation</font><font color="#CCCCCC"> guys</font><font color="#E5E5E5"> it</font>
+this is the standard deviation guys it
 
-<font color="#CCCCCC">starts</font><font color="#E5E5E5"> simple so this is how you find</font>
+starts simple so this is how you find
 
-standard deviation now<font color="#CCCCCC"> let's go</font><font color="#E5E5E5"> back</font><font color="#CCCCCC"> to</font>
+standard deviation now let's go back to
 
-<font color="#CCCCCC">our slides</font><font color="#E5E5E5"> and see what are the other</font>
+our slides and see what are the other
 
-operations<font color="#E5E5E5"> that are still left now these</font>
+operations that are still left now these
 
-are<font color="#E5E5E5"> the basic</font><font color="#CCCCCC"> mathematical functions</font>
+are the basic mathematical functions
 
-that you<font color="#E5E5E5"> can perform</font><font color="#CCCCCC"> with</font><font color="#E5E5E5"> mum py RS like</font>
+that you can perform with mum py RS like
 
 addition multiplication subtraction and
 
-division<font color="#E5E5E5"> and</font><font color="#CCCCCC"> that will actually happen</font>
+division and that will actually happen
 
-<font color="#E5E5E5">element wise so basically you are</font>
+element wise so basically you are
 
-<font color="#E5E5E5">performing matrix addition matrix</font>
+performing matrix addition matrix
 
-multiplication matrix division as<font color="#CCCCCC"> well</font>
+multiplication matrix division as well
 
-as matrix subtraction<font color="#CCCCCC"> let me go ahead</font>
+as matrix subtraction let me go ahead
 
-<font color="#E5E5E5">and show</font><font color="#CCCCCC"> it to</font><font color="#E5E5E5"> you practically it is</font>
+and show it to you practically it is
 
-very very<font color="#E5E5E5"> simple guys so similarly I'm</font>
+very very simple guys so similarly I'm
 
-<font color="#CCCCCC">going to define one more</font><font color="#E5E5E5"> array and let</font>
+going to define one more array and let
 
-me<font color="#E5E5E5"> name it as</font><font color="#CCCCCC"> D let me remove this print</font>
+me name it as D let me remove this print
 
-statement<font color="#CCCCCC"> now if I want</font><font color="#E5E5E5"> to calculate the</font>
+statement now if I want to calculate the
 
-sum<font color="#E5E5E5"> so what I need</font><font color="#CCCCCC"> to do is I need to</font>
+sum so what I need to do is I need to
 
-type<font color="#E5E5E5"> and print a plus B that's all you</font>
+type and print a plus B that's all you
 
-need to do but when I talk about<font color="#E5E5E5"> lists</font>
+need to do but when I talk about lists
 
-<font color="#E5E5E5">again I'm telling</font><font color="#CCCCCC"> you that when I talk</font>
+again I'm telling you that when I talk
 
-about lists if I do that it<font color="#E5E5E5"> will</font>
+about lists if I do that it will
 
-concatenate both lists<font color="#CCCCCC"> so if I want to</font>
+concatenate both lists so if I want to
 
-print list<font color="#CCCCCC"> that is the addition of two</font>
+print list that is the addition of two
 
-lists<font color="#CCCCCC"> I need to use for loop so that</font><font color="#E5E5E5"> is</font>
+lists I need to use for loop so that is
 
-where numpy wire<font color="#E5E5E5"> is stands apart and it</font>
+where numpy wire is stands apart and it
 
-is pretty convenient<font color="#CCCCCC"> go ahead and</font>
+is pretty convenient go ahead and
 
 execute this and you see that element
 
-wise<font color="#E5E5E5"> addition has happened 1 plus 1 is 2</font>
+wise addition has happened 1 plus 1 is 2
 
-2 plus<font color="#CCCCCC"> 2 is 4 3</font><font color="#E5E5E5"> plus 3 is 6 similarly 3</font>
+2 plus 2 is 4 3 plus 3 is 6 similarly 3
 
-plus 3 is<font color="#E5E5E5"> 6 then 4 plus</font><font color="#CCCCCC"> 4 is</font><font color="#E5E5E5"> 8</font><font color="#CCCCCC"> pi</font><font color="#E5E5E5"> plus 5</font>
+plus 3 is 6 then 4 plus 4 is 8 pi plus 5
 
-is 10<font color="#E5E5E5"> all right so</font>
+is 10 all right so
 
-this is how you can<font color="#E5E5E5"> perform addition you</font>
+this is how you can perform addition you
 
 can perform subtraction by using the
 
-subtraction<font color="#E5E5E5"> operator go ahead execute</font>
+subtraction operator go ahead execute
 
-this and you'll find all<font color="#E5E5E5"> zeros because 1</font>
+this and you'll find all zeros because 1
 
-<font color="#CCCCCC">minus 1 2 minus 2 3 minus 3 3</font><font color="#E5E5E5"> minus 3 4</font>
+minus 1 2 minus 2 3 minus 3 3 minus 3 4
 
-minus 4<font color="#E5E5E5"> PI minus 5 will be 0 only right</font>
+minus 4 PI minus 5 will be 0 only right
 
-no<font color="#CCCCCC"> rocket st. now go ahead</font><font color="#E5E5E5"> and multiply</font>
+no rocket st. now go ahead and multiply
 
-it as well<font color="#CCCCCC"> and see what happens</font><font color="#E5E5E5"> so</font><font color="#CCCCCC"> you</font>
+it as well and see what happens so you
 
-have 1 into 1 is 1 2<font color="#E5E5E5"> into 2 is 4 3 into</font>
+have 1 into 1 is 1 2 into 2 is 4 3 into
 
-3 is 9 again 3 into 3 is 9<font color="#E5E5E5"> 4 4 16 5 into</font>
+3 is 9 again 3 into 3 is 9 4 4 16 5 into
 
-5 is 25<font color="#CCCCCC"> if I go ahead</font><font color="#E5E5E5"> and divide this it</font>
+5 is 25 if I go ahead and divide this it
 
-will give me all<font color="#CCCCCC"> ones and yep it does</font><font color="#E5E5E5"> so</font>
+will give me all ones and yep it does so
 
-this<font color="#E5E5E5"> is how you can actually perform</font>
+this is how you can actually perform
 
-addition subtraction multiplication<font color="#E5E5E5"> and</font>
+addition subtraction multiplication and
 
-division using<font color="#E5E5E5"> a numpy</font><font color="#CCCCCC"> y RS now let me</font>
+division using a numpy y RS now let me
 
-go<font color="#E5E5E5"> back</font><font color="#CCCCCC"> to</font><font color="#E5E5E5"> my slides and see what are</font>
+go back to my slides and see what are
 
-the other<font color="#E5E5E5"> operations present so now guys</font>
+the other operations present so now guys
 
-let me<font color="#CCCCCC"> tell you one more</font><font color="#E5E5E5"> thing if I</font>
+let me tell you one more thing if I
 
-actually want to concatenate<font color="#E5E5E5"> two arrays</font>
+actually want to concatenate two arrays
 
-I don't just want to<font color="#E5E5E5"> add those two</font>
+I don't just want to add those two
 
-arrays<font color="#CCCCCC"> you can say that if my one</font><font color="#E5E5E5"> adder</font>
+arrays you can say that if my one adder
 
-is a box then I want<font color="#E5E5E5"> another array on</font>
+is a box then I want another array on
 
-top of it<font color="#E5E5E5"> so let</font><font color="#CCCCCC"> me show</font><font color="#E5E5E5"> you how you can</font>
+top of it so let me show you how you can
 
-<font color="#E5E5E5">do that</font><font color="#CCCCCC"> actually there</font><font color="#E5E5E5"> are two ways to</font>
+do that actually there are two ways to
 
-<font color="#CCCCCC">do that one</font><font color="#E5E5E5"> is called vertical stacking</font>
+do that one is called vertical stacking
 
-and another is<font color="#E5E5E5"> called horizontal</font>
+and another is called horizontal
 
-stacking let me show it<font color="#CCCCCC"> to you one by</font>
+stacking let me show it to you one by
 
-one<font color="#E5E5E5"> first I'm going to show you vertical</font>
+one first I'm going to show you vertical
 
-<font color="#E5E5E5">stacking</font><font color="#CCCCCC"> without what</font><font color="#E5E5E5"> I need to do is</font>
+stacking without what I need to do is
 
-print<font color="#CCCCCC"> n P dot V stack and a comma B let</font>
+print n P dot V stack and a comma B let
 
-<font color="#E5E5E5">us see what happens when I run</font><font color="#CCCCCC"> this so</font>
+us see what happens when I run this so
 
-we<font color="#CCCCCC"> have 1 2 3 3 4 5 then again we have</font><font color="#E5E5E5"> 1</font>
+we have 1 2 3 3 4 5 then again we have 1
 
-2<font color="#CCCCCC"> 3 & 3</font><font color="#E5E5E5"> 4 5 so this</font><font color="#CCCCCC"> is called</font><font color="#E5E5E5"> vertical</font>
+2 3 & 3 4 5 so this is called vertical
 
-stacking if I want<font color="#E5E5E5"> that horizontally</font>
+stacking if I want that horizontally
 
-<font color="#CCCCCC">I'll just write in</font><font color="#E5E5E5"> here</font><font color="#CCCCCC"> H stack and I'm</font>
+I'll just write in here H stack and I'm
 
-going<font color="#E5E5E5"> to run this now and you can see</font>
+going to run this now and you can see
 
-that we have<font color="#E5E5E5"> 1 2 3</font><font color="#CCCCCC"> then again 1 2 3</font><font color="#E5E5E5"> that</font>
+that we have 1 2 3 then again 1 2 3 that
 
-means these<font color="#E5E5E5"> two</font><font color="#CCCCCC"> are present</font><font color="#E5E5E5"> added</font>
+means these two are present added
 
-horizontally<font color="#E5E5E5"> and we have 3 4 5 again we</font>
+horizontally and we have 3 4 5 again we
 
-have 3 4 5 so<font color="#E5E5E5"> this is how you can</font>
+have 3 4 5 so this is how you can
 
 perform stacking as well now there's one
 
-more thing<font color="#CCCCCC"> that</font><font color="#E5E5E5"> I want to show you if I</font>
+more thing that I want to show you if I
 
 actually want to convert this particular
 
-in numpy<font color="#CCCCCC"> y array that is</font><font color="#E5E5E5"> a to say a</font>
+in numpy y array that is a to say a
 
-single<font color="#E5E5E5"> column so how I can do that</font>
+single column so how I can do that
 
-<font color="#E5E5E5">thus type in here print a dot</font><font color="#CCCCCC"> revell</font>
+thus type in here print a dot revell
 
-that's all you have to do go<font color="#CCCCCC"> ahead</font><font color="#E5E5E5"> and</font>
+that's all you have to do go ahead and
 
-<font color="#E5E5E5">execute this so</font><font color="#CCCCCC"> now 1 2 3 3</font><font color="#E5E5E5"> 4 5 so you</font>
+execute this so now 1 2 3 3 4 5 so you
 
-have 1 2<font color="#CCCCCC"> 3 3 4 5 let me go back to</font><font color="#E5E5E5"> my</font>
+have 1 2 3 3 4 5 let me go back to my
 
-slides<font color="#E5E5E5"> and see what are the other topics</font>
+slides and see what are the other topics
 
-<font color="#CCCCCC">that we</font><font color="#E5E5E5"> are going to cover now come</font>
+that we are going to cover now come
 
-certain numpy<font color="#E5E5E5"> Y special functions now</font>
+certain numpy Y special functions now
 
-<font color="#E5E5E5">I'm going to talk about sine function</font>
+I'm going to talk about sine function
 
-and<font color="#CCCCCC"> cosine function</font><font color="#E5E5E5"> first now I hope all</font>
+and cosine function first now I hope all
 
-of<font color="#E5E5E5"> us know what is a sine</font><font color="#CCCCCC"> function</font><font color="#E5E5E5"> and</font>
+of us know what is a sine function and
 
-<font color="#E5E5E5">what is the cosine function if you have</font>
+what is the cosine function if you have
 
 any doubt
 
-with respect<font color="#CCCCCC"> to what these two are you</font>
+with respect to what these two are you
 
-can ask me although<font color="#CCCCCC"> I'm pretty much</font>
+can ask me although I'm pretty much
 
 expecting that you guys know this all
 
-right<font color="#E5E5E5"> so I've</font><font color="#CCCCCC"> got answers</font><font color="#E5E5E5"> all right so</font>
+right so I've got answers all right so
 
-I've got<font color="#E5E5E5"> answers from almost everyone</font>
+I've got answers from almost everyone
 
-<font color="#E5E5E5">and they say that they know</font><font color="#CCCCCC"> it fine guys</font>
+and they say that they know it fine guys
 
-so what I'm going to do is I'm going<font color="#CCCCCC"> to</font>
+so what I'm going to do is I'm going to
 
-<font color="#CCCCCC">use this cosine and sine function</font><font color="#E5E5E5"> I'm</font>
+use this cosine and sine function I'm
 
-<font color="#CCCCCC">going</font><font color="#E5E5E5"> to plot sine and a cosine graph so</font>
+going to plot sine and a cosine graph so
 
-for that<font color="#E5E5E5"> I'm going to import a module</font>
+for that I'm going to import a module
 
-called matplotlib<font color="#CCCCCC"> so you don't need to</font>
+called matplotlib so you don't need to
 
-worry about<font color="#E5E5E5"> that module because</font><font color="#CCCCCC"> I'm</font>
+worry about that module because I'm
 
-<font color="#E5E5E5">going to discuss about matplotlib in the</font>
+going to discuss about matplotlib in the
 
 upcoming sessions so there'll be a
 
-<font color="#E5E5E5">detailed session especially</font><font color="#CCCCCC"> on</font>
+detailed session especially on
 
-matplotlib so you don't<font color="#E5E5E5"> need to worry</font>
+matplotlib so you don't need to worry
 
 about what exactly matplotlib is and how
 
-it works<font color="#E5E5E5"> and all those things because</font>
+it works and all those things because
 
-<font color="#E5E5E5">that'll be covered in the upcoming</font>
+that'll be covered in the upcoming
 
-session<font color="#E5E5E5"> for now what we</font><font color="#CCCCCC"> are</font><font color="#E5E5E5"> going to do</font>
+session for now what we are going to do
 
-we<font color="#CCCCCC"> are just</font><font color="#E5E5E5"> going</font><font color="#CCCCCC"> to use sine and cosine</font>
+we are just going to use sine and cosine
 
-function in<font color="#CCCCCC"> order</font><font color="#E5E5E5"> to print their graph</font>
+function in order to print their graph
 
-so that<font color="#CCCCCC"> I'll open white pycharm and let</font>
+so that I'll open white pycharm and let
 
 me remove this and import my plot lip
 
-dot<font color="#CCCCCC"> pie plot as</font><font color="#E5E5E5"> PLT now we are going to</font>
+dot pie plot as PLT now we are going to
 
-define two coordinates that<font color="#CCCCCC"> is x and y</font>
+define two coordinates that is x and y
 
-first<font color="#CCCCCC"> x is equal to</font><font color="#E5E5E5"> NP dot</font><font color="#CCCCCC"> arrange 0</font>
+first x is equal to NP dot arrange 0
 
-comma 3<font color="#CCCCCC"> n</font><font color="#E5E5E5"> 2</font><font color="#CCCCCC"> NP dot pi comma 0 point</font><font color="#E5E5E5"> 1</font>
+comma 3 n 2 NP dot pi comma 0 point 1
 
-<font color="#E5E5E5">now</font><font color="#CCCCCC"> I'm going</font><font color="#E5E5E5"> to find y so for that I'll</font>
+now I'm going to find y so for that I'll
 
-type y NP<font color="#E5E5E5"> dot sine X</font><font color="#CCCCCC"> now I'm going to</font>
+type y NP dot sine X now I'm going to
 
-<font color="#E5E5E5">use PLT</font><font color="#CCCCCC"> in order to plot the graph X</font>
+use PLT in order to plot the graph X
 
-comma<font color="#E5E5E5"> Y now finally show the plot for</font>
+comma Y now finally show the plot for
 
-that<font color="#E5E5E5"> I'll type plot dot show you must</font>
+that I'll type plot dot show you must
 
-plot that show to make a graphics<font color="#CCCCCC"> up</font>
+plot that show to make a graphics up
 
-<font color="#CCCCCC">here so plot</font><font color="#E5E5E5"> dot show and here we go</font>
+here so plot dot show and here we go
 
 go ahead and execute this and you might
 
-be able<font color="#CCCCCC"> to see a graph and yep it is</font>
+be able to see a graph and yep it is
 
-<font color="#CCCCCC">here</font>
+here
 
-similarly for if I change the sign<font color="#CCCCCC"> to</font>
+similarly for if I change the sign to
 
-<font color="#E5E5E5">cause and should give me the cosine</font>
+cause and should give me the cosine
 
-<font color="#CCCCCC">graph</font><font color="#E5E5E5"> go ahead and run this and you can</font>
+graph go ahead and run this and you can
 
 see we have a cosine graph as well
 
-<font color="#E5E5E5">similarly if I write in air tan</font><font color="#CCCCCC"> that is</font>
+similarly if I write in air tan that is
 
-any<font color="#CCCCCC"> other trigonometric</font><font color="#E5E5E5"> function and I</font>
+any other trigonometric function and I
 
-print this<font color="#E5E5E5"> so I get the graph for tan as</font>
+print this so I get the graph for tan as
 
-well<font color="#E5E5E5"> so any doubt still here guys no</font>
+well so any doubt still here guys no
 
-<font color="#E5E5E5">doubts</font><font color="#CCCCCC"> fine so</font>
+doubts fine so
 
-open<font color="#CCCCCC"> my</font><font color="#E5E5E5"> presentation once more and we</font>
+open my presentation once more and we
 
-are<font color="#E5E5E5"> going to see what are the other</font>
+are going to see what are the other
 
-<font color="#E5E5E5">special functions that we</font><font color="#CCCCCC"> can</font><font color="#E5E5E5"> use with</font>
+special functions that we can use with
 
-<font color="#E5E5E5">num py now num py comes with two very</font>
+num py now num py comes with two very
 
-good<font color="#E5E5E5"> functionality that would say that</font>
+good functionality that would say that
 
-is called exponential function<font color="#E5E5E5"> and in</font>
+is called exponential function and in
 
-<font color="#CCCCCC">logarithmic functions</font>
+logarithmic functions
 
 now exponential this e value is
 
-somewhere<font color="#E5E5E5"> equal to point</font><font color="#CCCCCC"> seven</font><font color="#E5E5E5"> and we</font>
+somewhere equal to point seven and we
 
-<font color="#E5E5E5">all know</font><font color="#CCCCCC"> load</font><font color="#E5E5E5"> so when I talk about log</font>
+all know load so when I talk about log
 
-it is actually log base<font color="#CCCCCC"> 10 and</font><font color="#E5E5E5"> when I'm</font>
+it is actually log base 10 and when I'm
 
-<font color="#E5E5E5">talking</font><font color="#CCCCCC"> about natural log that</font><font color="#E5E5E5"> is log</font>
+talking about natural log that is log
 
-<font color="#CCCCCC">base</font><font color="#E5E5E5"> E I will write it as Ellen so</font>
+base E I will write it as Ellen so
 
 instead of that I've written log that
 
-means log base<font color="#E5E5E5"> 10 so you can perform</font>
+means log base 10 so you can perform
 
-<font color="#CCCCCC">these operations with the help of num py</font>
+these operations with the help of num py
 
-<font color="#E5E5E5">let me show you how you can do that or</font>
+let me show you how you can do that or
 
-<font color="#E5E5E5">before that</font><font color="#CCCCCC"> if you have any questions</font>
+before that if you have any questions
 
-with what exactly<font color="#CCCCCC"> these two things are</font>
+with what exactly these two things are
 
-<font color="#E5E5E5">you can ask me this is pretty basic</font>
+you can ask me this is pretty basic
 
-<font color="#CCCCCC">alright so no questions fine I suppose</font>
+alright so no questions fine I suppose
 
-everyone know about<font color="#CCCCCC"> this</font><font color="#E5E5E5"> so I'll open</font><font color="#CCCCCC"> my</font>
+everyone know about this so I'll open my
 
-<font color="#CCCCCC">pycharm let me</font><font color="#E5E5E5"> remove this and I'm going</font>
+pycharm let me remove this and I'm going
 
-to define a<font color="#CCCCCC"> non py</font><font color="#E5E5E5"> array let it be a are</font>
+to define a non py array let it be a are
 
-equal to NP<font color="#E5E5E5"> dot array 1 comma 2</font><font color="#CCCCCC"> comma 3</font>
+equal to NP dot array 1 comma 2 comma 3
 
-<font color="#E5E5E5">now I want to calculate the exponential</font>
+now I want to calculate the exponential
 
-value<font color="#E5E5E5"> I'm going</font><font color="#CCCCCC"> to throw in a print</font>
+value I'm going to throw in a print
 
-statement<font color="#CCCCCC"> and I'm going</font><font color="#E5E5E5"> to write in here</font>
+statement and I'm going to write in here
 
-<font color="#CCCCCC">n P dot exp AR and this</font><font color="#E5E5E5"> will calculate</font>
+n P dot exp AR and this will calculate
 
-the exponential value<font color="#E5E5E5"> for me and let us</font>
+the exponential value for me and let us
 
-see if<font color="#CCCCCC"> a does that or not</font><font color="#E5E5E5"> so</font><font color="#CCCCCC"> up as</font><font color="#E5E5E5"> I've</font>
+see if a does that or not so up as I've
 
-told you<font color="#E5E5E5"> earlier as well value</font><font color="#CCCCCC"> of e</font><font color="#E5E5E5"> is</font><font color="#CCCCCC"> 2</font>
+told you earlier as well value of e is 2
 
-<font color="#CCCCCC">point 7</font><font color="#E5E5E5"> 1 so e to the power</font><font color="#CCCCCC"> of 1 is</font>
+point 7 1 so e to the power of 1 is
 
-actually<font color="#CCCCCC"> equal to</font><font color="#E5E5E5"> e so it has it</font>
+actually equal to e so it has it
 
-returned the<font color="#CCCCCC"> e value but e to</font><font color="#E5E5E5"> the</font><font color="#CCCCCC"> power</font>
+returned the e value but e to the power
 
-of<font color="#E5E5E5"> 2 will be somewhere equal to seven</font>
+of 2 will be somewhere equal to seven
 
-<font color="#E5E5E5">point three</font><font color="#CCCCCC"> eight e to the power</font><font color="#E5E5E5"> of</font>
+point three eight e to the power of
 
-three<font color="#E5E5E5"> will be some very equal to 20</font>
+three will be some very equal to 20
 
-point zero<font color="#E5E5E5"> eight five five now in order</font>
+point zero eight five five now in order
 
-<font color="#CCCCCC">to</font><font color="#E5E5E5"> calculate log what you can do is you</font>
+to calculate log what you can do is you
 
-<font color="#E5E5E5">can just type in here</font><font color="#CCCCCC"> log now this will</font>
+can just type in here log now this will
 
-give you natural<font color="#CCCCCC"> log so when I talk</font>
+give you natural log so when I talk
 
-<font color="#CCCCCC">about natural</font><font color="#E5E5E5"> log it is nothing but Ln</font>
+about natural log it is nothing but Ln
 
-<font color="#E5E5E5">or you can say log</font><font color="#CCCCCC"> base</font><font color="#E5E5E5"> E but if I want</font>
+or you can say log base E but if I want
 
-<font color="#E5E5E5">to calculate log base 10 so I need to</font>
+to calculate log base 10 so I need to
 
-type in here<font color="#CCCCCC"> ten first let me</font><font color="#E5E5E5"> show you</font>
+type in here ten first let me show you
 
-how you can find<font color="#E5E5E5"> the</font><font color="#CCCCCC"> natural log</font><font color="#E5E5E5"> just go</font>
+how you can find the natural log just go
 
-<font color="#CCCCCC">ahead and execute this alright</font><font color="#E5E5E5"> so when I</font>
+ahead and execute this alright so when I
 
-talk<font color="#CCCCCC"> about</font><font color="#E5E5E5"> one so e</font><font color="#CCCCCC"> to</font><font color="#E5E5E5"> the power of</font><font color="#CCCCCC"> zero</font>
+talk about one so e to the power of zero
 
-will be<font color="#CCCCCC"> equal to one right so log or Ln</font>
+will be equal to one right so log or Ln
 
-a are<font color="#E5E5E5"> equal to zero similarly the other</font>
+a are equal to zero similarly the other
 
-values as well<font color="#E5E5E5"> now if I want log base</font>
+values as well now if I want log base
 
-<font color="#CCCCCC">ten instead of Ln</font><font color="#E5E5E5"> or you can say</font><font color="#CCCCCC"> natural</font>
+ten instead of Ln or you can say natural
 
-log I can<font color="#CCCCCC"> just write</font><font color="#E5E5E5"> in</font><font color="#CCCCCC"> ten and go ahead</font>
+log I can just write in ten and go ahead
 
-execute this<font color="#E5E5E5"> and</font><font color="#CCCCCC"> you'll find</font>
+execute this and you'll find
 
-log base<font color="#CCCCCC"> 10 values</font><font color="#E5E5E5"> so obviously when</font>
+log base 10 values so obviously when
 
-answer is<font color="#CCCCCC"> one</font><font color="#E5E5E5"> that means anything</font><font color="#CCCCCC"> to the</font>
+answer is one that means anything to the
 
-power of<font color="#CCCCCC"> zero is equal to one so your</font>
+power of zero is equal to one so your
 
-<font color="#E5E5E5">answer will be zero here and similarly</font>
+answer will be zero here and similarly
 
-<font color="#E5E5E5">we have other answers as well if you are</font>
+we have other answers as well if you are
 
-<font color="#E5E5E5">pretty if</font><font color="#CCCCCC"> you're unsure about it</font><font color="#E5E5E5"> you can</font>
+pretty if you're unsure about it you can
 
 open your calculators and do that or
 
 it's 11 essays I trust you thank you
 
-love and<font color="#E5E5E5"> err for those kind words let me</font>
+love and err for those kind words let me
 
-<font color="#E5E5E5">open</font><font color="#CCCCCC"> my slides once more and by this we</font>
+open my slides once more and by this we
 
-<font color="#E5E5E5">come</font><font color="#CCCCCC"> to</font><font color="#E5E5E5"> the end of today's session</font><font color="#CCCCCC"> if</font>
+come to the end of today's session if
 
-<font color="#E5E5E5">you have any questions or doubts you can</font>
+you have any questions or doubts you can
 
-<font color="#CCCCCC">ask me right</font><font color="#E5E5E5"> now John is say the amazing</font>
+ask me right now John is say the amazing
 
-<font color="#E5E5E5">session</font>
+session
 
-<font color="#CCCCCC">thank you John is for</font><font color="#E5E5E5"> those kind words</font>
+thank you John is for those kind words
 
-<font color="#CCCCCC">Jessica</font><font color="#E5E5E5"> say is very informative Thank</font>
+Jessica say is very informative Thank
 
 You Jessica
 
-<font color="#CCCCCC">all right fine guys</font><font color="#E5E5E5"> so let me give you a</font>
+all right fine guys so let me give you a
 
-brief<font color="#CCCCCC"> summary</font><font color="#E5E5E5"> of</font><font color="#CCCCCC"> what all things</font><font color="#E5E5E5"> we have</font>
+brief summary of what all things we have
 
 discussed first we saw what exactly is
 
-<font color="#CCCCCC">lump</font><font color="#E5E5E5"> I then we compared umpire with list</font>
+lump I then we compared umpire with list
 
-<font color="#E5E5E5">and we understood why</font><font color="#CCCCCC"> we use numpy</font>
+and we understood why we use numpy
 
 instead of lists then we saw various
 
-<font color="#CCCCCC">numpy</font><font color="#E5E5E5"> operations like slicing stacking</font>
+numpy operations like slicing stacking
 
-addition subtraction multiplication<font color="#E5E5E5"> all</font>
+addition subtraction multiplication all
 
-those things then we<font color="#E5E5E5"> focus on certain</font>
+those things then we focus on certain
 
 special functions like sine and cosine
 
-<font color="#CCCCCC">functions thank you guys</font><font color="#E5E5E5"> for</font><font color="#CCCCCC"> attending</font>
+functions thank you guys for attending
 
-today's session<font color="#CCCCCC"> this video will be</font>
+today's session this video will be
 
-<font color="#CCCCCC">uploaded into your LMS so you can go</font>
+uploaded into your LMS so you can go
 
-through<font color="#CCCCCC"> it</font><font color="#E5E5E5"> if you have any questions or</font>
+through it if you have any questions or
 
-doubts you can<font color="#CCCCCC"> ask our</font><font color="#E5E5E5"> 24/7</font><font color="#CCCCCC"> support team</font>
+doubts you can ask our 24/7 support team
 
-<font color="#E5E5E5">or you can</font><font color="#CCCCCC"> even bring your doubts in the</font>
+or you can even bring your doubts in the
 
-next class as well thank you<font color="#E5E5E5"> and have a</font>
+next class as well thank you and have a
 
-great day<font color="#CCCCCC"> I hope you enjoyed listening</font>
+great day I hope you enjoyed listening
 
-<font color="#E5E5E5">to this</font><font color="#CCCCCC"> video please be kind</font><font color="#E5E5E5"> enough</font><font color="#CCCCCC"> to</font>
+to this video please be kind enough to
 
-like it and you can<font color="#E5E5E5"> comment any of your</font>
+like it and you can comment any of your
 
-<font color="#E5E5E5">doubts and queries and</font><font color="#CCCCCC"> we will reply to</font>
+doubts and queries and we will reply to
 
-them at the earliest<font color="#CCCCCC"> to look out for</font>
+them at the earliest to look out for
 
-more<font color="#CCCCCC"> videos in</font><font color="#E5E5E5"> our playlist and</font>
+more videos in our playlist and
 
-subscribe<font color="#E5E5E5"> to our at Eureka channel to</font>
+subscribe to our at Eureka channel to
 
-learn<font color="#E5E5E5"> more happy learning</font>
-
+learn more happy learning
