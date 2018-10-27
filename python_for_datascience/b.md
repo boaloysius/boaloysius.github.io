@@ -1,358 +1,350 @@
-dear friends we<font color="#CCCCCC"> are</font><font color="#E5E5E5"> going to look into</font>
+Hello workd, in this blog we will look into Numpy module. It is extremely popular in Python community and it is heavily used for Scientific Computing and Data Science. we will see why it is so popular.
 
-numpy by module today it is extremely
+To get started we will install the module
+'''python
+install it using pip
+'''
 
-<font color="#E5E5E5">popular in Python</font><font color="#CCCCCC"> community and it</font><font color="#E5E5E5"> is</font>
+you can run pip install numpy why come
 
-heavily<font color="#CCCCCC"> used</font><font color="#E5E5E5"> for</font><font color="#CCCCCC"> scientific computing we</font>
+on to download and install it while it
 
-will see why it<font color="#CCCCCC"> is</font><font color="#E5E5E5"> so</font><font color="#CCCCCC"> popular so let's</font>
+is installing number wise main object is
 
-first start<font color="#E5E5E5"> by installing it</font><font color="#CCCCCC"> I will</font>
+n dimensional array okay so we will look
 
-install it using<font color="#CCCCCC"> pip</font>
+into that array so here I have my Python
 
-you can run pip install numpy<font color="#E5E5E5"> why come</font>
+idle shell open and I am going to import
 
-on<font color="#CCCCCC"> to</font><font color="#E5E5E5"> download and install</font><font color="#CCCCCC"> it</font><font color="#E5E5E5"> while it</font>
-
-is installing<font color="#CCCCCC"> number</font><font color="#E5E5E5"> wise main object is</font>
-
-<font color="#E5E5E5">n dimensional array</font><font color="#CCCCCC"> okay so we</font><font color="#E5E5E5"> will look</font>
-
-into<font color="#CCCCCC"> that array</font><font color="#E5E5E5"> so here I have my Python</font>
-
-<font color="#CCCCCC">idle shell open and I am going</font><font color="#E5E5E5"> to import</font>
-
-numpy<font color="#CCCCCC"> Y model here so num I've imported</font>
+numpy Y model here so num I've imported
 
 it as NP and to create an array object
 
-<font color="#E5E5E5">you will use NP dot array and in this</font>
+you will use NP dot array and in this
 
-<font color="#E5E5E5">bracket you just</font><font color="#CCCCCC"> pass down your list</font><font color="#E5E5E5"> so</font>
+bracket you just pass down your list so
 
-this<font color="#E5E5E5"> is my</font><font color="#CCCCCC"> number Y array</font><font color="#E5E5E5"> if</font><font color="#CCCCCC"> you look</font>
+this is my number Y array if you look
 
-into<font color="#CCCCCC"> it now this is</font><font color="#E5E5E5"> sort</font><font color="#CCCCCC"> of similar to a</font>
+into it now this is sort of similar to a
 
-list<font color="#CCCCCC"> it is actually very similar to a</font>
+list it is actually very similar to a
 
 list you can access the elements by
 
-index<font color="#E5E5E5"> it looks like a list so the</font>
+index it looks like a list so the
 
-question is I only<font color="#E5E5E5"> have a list why do I</font>
+question is I only have a list why do I
 
-need<font color="#E5E5E5"> this number</font><font color="#CCCCCC"> Y array well there are</font>
+need this number Y array well there are
 
-several benefits<font color="#E5E5E5"> of using numpy array</font>
+several benefits of using numpy array
 
-<font color="#E5E5E5">there are three main benefits first is</font>
+there are three main benefits first is
 
-it requires less memory it<font color="#E5E5E5"> is fast and</font>
+it requires less memory it is fast and
 
-convenient<font color="#E5E5E5"> and will go or all these</font>
+convenient and will go or all these
 
-three benefits<font color="#E5E5E5"> one by one okay</font><font color="#CCCCCC"> so</font>
+three benefits one by one okay so
 
-<font color="#CCCCCC">essentially what we are doing is we are</font>
+essentially what we are doing is we are
 
-comparing<font color="#E5E5E5"> numpy Y with number Y array</font>
+comparing numpy Y with number Y array
 
-with a<font color="#E5E5E5"> Python list here okay</font>
+with a Python list here okay
 
-so let's first create a Python list<font color="#CCCCCC"> I'm</font>
+so let's first create a Python list I'm
 
-just going to<font color="#E5E5E5"> say range thousand so I</font>
+just going to say range thousand so I
 
 created a list which has thousand
 
-elements<font color="#E5E5E5"> here and I'm going to print the</font>
+elements here and I'm going to print the
 
 size of the list now to print the size
 
-you<font color="#E5E5E5"> need to get a size of one</font>
+you need to get a size of one
 
-one element<font color="#E5E5E5"> so one element</font><font color="#CCCCCC"> here is one</font>
+one element so one element here is one
 
-<font color="#CCCCCC">number you can give any number here and</font>
+number you can give any number here and
 
-<font color="#E5E5E5">then</font><font color="#CCCCCC"> lengths off your list</font><font color="#E5E5E5"> second</font><font color="#CCCCCC"> I</font><font color="#E5E5E5"> am</font>
+then lengths off your list second I am
 
-<font color="#E5E5E5">going to</font><font color="#CCCCCC"> create a non py array so</font><font color="#E5E5E5"> this</font>
+going to create a non py array so this
 
-is how you<font color="#E5E5E5"> create an umpire array this</font>
+is how you create an umpire array this
 
-function<font color="#CCCCCC"> a range is similar to range is</font>
+function a range is similar to range is
 
-going<font color="#E5E5E5"> to create an array with element 0</font>
+going to create an array with element 0
 
-to 99<font color="#CCCCCC"> okay so the size of this numpy</font>
+to 99 okay so the size of this numpy
 
-array would be thousand<font color="#E5E5E5"> and to</font><font color="#CCCCCC"> print the</font>
+array would be thousand and to print the
 
-size of this array<font color="#E5E5E5"> you need to call</font>
+size of this array you need to call
 
-array dot size so<font color="#E5E5E5"> or a dot size will</font>
+array dot size so or a dot size will
 
-<font color="#CCCCCC">give you thousand ok</font><font color="#E5E5E5"> and the size of</font>
+give you thousand ok and the size of
 
-every element<font color="#E5E5E5"> will be I will be item</font>
+every element will be I will be item
 
-size<font color="#E5E5E5"> so just remember that added or item</font>
+size so just remember that added or item
 
-size is size<font color="#E5E5E5"> of one element</font><font color="#CCCCCC"> vs. added</font><font color="#E5E5E5"> of</font>
+size is size of one element vs. added of
 
-size is the total<font color="#E5E5E5"> length of an array</font>
+size is the total length of an array
 
-<font color="#E5E5E5">when you run this program you'll notice</font>
+when you run this program you'll notice
 
-that the Python<font color="#E5E5E5"> list is taking taking 14</font>
+that the Python list is taking taking 14
 
-thousand<font color="#E5E5E5"> bytes versus number</font><font color="#CCCCCC"> wise taking</font>
+thousand bytes versus number wise taking
 
-<font color="#E5E5E5">only</font><font color="#CCCCCC"> four</font><font color="#E5E5E5"> thousand bytes now this is</font>
+only four thousand bytes now this is
 
-because your<font color="#CCCCCC"> Python are the size of one</font>
+because your Python are the size of one
 
-Python object is like<font color="#E5E5E5"> 14 okay and what's</font>
+Python object is like 14 okay and what's
 
-the size of one<font color="#E5E5E5"> number why are a object</font>
+the size of one number why are a object
 
-is here in this<font color="#E5E5E5"> case</font><font color="#CCCCCC"> since we are</font>
+is here in this case since we are
 
-storing integer numbers<font color="#E5E5E5"> it</font><font color="#CCCCCC"> is only</font><font color="#E5E5E5"> four</font>
+storing integer numbers it is only four
 
-bytes<font color="#CCCCCC"> okay so if you look at this</font>
+bytes okay so if you look at this
 
-diagram<font color="#CCCCCC"> it kind of should</font><font color="#E5E5E5"> this shows the</font>
+diagram it kind of should this shows the
 
 memory presentation of our list and
 
-number<font color="#CCCCCC"> I array on the left</font><font color="#E5E5E5"> hand side we</font>
+number I array on the left hand side we
 
-<font color="#CCCCCC">have numpy array</font><font color="#E5E5E5"> which points to</font>
+have numpy array which points to
 
-<font color="#E5E5E5">continuous or contiguous location of</font>
+continuous or contiguous location of
 
-memories where you have all your<font color="#E5E5E5"> element</font>
+memories where you have all your element
 
-store 1<font color="#E5E5E5"> 2 3 4 5 and so</font><font color="#CCCCCC"> on and each</font><font color="#E5E5E5"> of</font>
+store 1 2 3 4 5 and so on and each of
 
-these element contain is occupying<font color="#E5E5E5"> 4</font>
+these element contain is occupying 4
 
-byte of memory<font color="#E5E5E5"> versus in case of Python</font>
+byte of memory versus in case of Python
 
-<font color="#CCCCCC">lists you all know that</font><font color="#E5E5E5"> in Python</font>
+lists you all know that in Python
 
-<font color="#E5E5E5">everything is an object so the list will</font>
+everything is an object so the list will
 
 contain a list of pointers first as you
 
 can
 
-see in the diagram<font color="#E5E5E5"> and each pointer will</font>
+see in the diagram and each pointer will
 
-then point<font color="#E5E5E5"> to another location in</font><font color="#CCCCCC"> the</font>
+then point to another location in the
 
-memory which will be<font color="#E5E5E5"> your object and the</font>
+memory which will be your object and the
 
-size of<font color="#CCCCCC"> that one object will be</font><font color="#E5E5E5"> 14 bytes</font>
+size of that one object will be 14 bytes
 
-<font color="#E5E5E5">so this is the reason</font><font color="#CCCCCC"> why or numpy why</font>
+so this is the reason why or numpy why
 
-array the<font color="#CCCCCC"> mammal</font><font color="#E5E5E5"> usage is very less</font>
+array the mammal usage is very less
 
-compared to<font color="#E5E5E5"> a plain Python list now when</font>
+compared to a plain Python list now when
 
-you are<font color="#E5E5E5"> array size all this size is very</font>
+you are array size all this size is very
 
-<font color="#CCCCCC">small you</font><font color="#E5E5E5"> won't notice much difference</font>
+small you won't notice much difference
 
-but let's say you are dealing<font color="#E5E5E5"> with the</font>
+but let's say you are dealing with the
 
-heavy amount of data<font color="#E5E5E5"> where you have</font>
+heavy amount of data where you have
 
-millions<font color="#CCCCCC"> and billions of numbers to</font>
+millions and billions of numbers to
 
-process in that<font color="#CCCCCC"> case it will make</font><font color="#E5E5E5"> sense</font>
+process in that case it will make sense
 
-<font color="#E5E5E5">to use numpy</font><font color="#CCCCCC"> why</font><font color="#E5E5E5"> all right</font>
+to use numpy why all right
 
-the second<font color="#CCCCCC"> advantage of</font><font color="#E5E5E5"> numpy why is</font>
+the second advantage of numpy why is
 
-<font color="#CCCCCC">that it is fast</font><font color="#E5E5E5"> and convenient</font><font color="#CCCCCC"> so let</font><font color="#E5E5E5"> me</font>
+that it is fast and convenient so let me
 
-prove that<font color="#CCCCCC"> point as well so I am going</font>
+prove that point as well so I am going
 
-to<font color="#E5E5E5"> what I'm going to do here is</font><font color="#CCCCCC"> alright</font>
+to what I'm going to do here is alright
 
-let me<font color="#CCCCCC"> just close this guy here</font><font color="#E5E5E5"> and I'm</font>
+let me just close this guy here and I'm
 
-going<font color="#CCCCCC"> to now create</font><font color="#E5E5E5"> here</font><font color="#CCCCCC"> two lists first</font>
+going to now create here two lists first
 
-call it<font color="#E5E5E5"> alone and l2 okay so range</font>
+call it alone and l2 okay so range
 
-sighs so size is<font color="#E5E5E5"> thousand here and l2 is</font>
+sighs so size is thousand here and l2 is
 
-also similar so I<font color="#CCCCCC"> created two lists</font><font color="#E5E5E5"> here</font>
+also similar so I created two lists here
 
-<font color="#E5E5E5">and then I am going to create two array</font>
+and then I am going to create two array
 
-so<font color="#E5E5E5"> NP dot a range again to create a</font>
+so NP dot a range again to create a
 
-<font color="#E5E5E5">number</font><font color="#CCCCCC"> Y array and then second array</font>
+number Y array and then second array
 
-will be<font color="#E5E5E5"> called a</font><font color="#CCCCCC"> two</font><font color="#E5E5E5"> okay now I want to</font>
+will be called a two okay now I want to
 
-<font color="#E5E5E5">measure</font><font color="#CCCCCC"> the time between</font><font color="#E5E5E5"> list processing</font>
+measure the time between list processing
 
-and number your array processing<font color="#E5E5E5"> so for</font>
+and number your array processing so for
 
-this you use start is equal<font color="#CCCCCC"> to time to</font>
+this you use start is equal to time to
 
-time and now what I'm<font color="#CCCCCC"> going to do is see</font>
+time and now what I'm going to do is see
 
-<font color="#CCCCCC">the thing the operation that I am doing</font>
+the thing the operation that I am doing
 
-<font color="#CCCCCC">here is I am adding these two</font><font color="#E5E5E5"> lists I am</font>
+here is I am adding these two lists I am
 
-adding<font color="#E5E5E5"> these two lists and producing a</font>
+adding these two lists and producing a
 
-new list call<font color="#E5E5E5"> call it result okay</font>
+new list call call it result okay
 
-so to order these<font color="#E5E5E5"> two lists you have</font><font color="#CCCCCC"> to</font>
+so to order these two lists you have to
 
-do<font color="#E5E5E5"> something like this</font><font color="#CCCCCC"> X</font><font color="#E5E5E5"> plus y for X Y</font>
+do something like this X plus y for X Y
 
-in zip l1 l2 what this will do<font color="#CCCCCC"> is it</font>
+in zip l1 l2 what this will do is it
 
-will<font color="#E5E5E5"> take first element from l1 first</font>
+will take first element from l1 first
 
-elements from l2<font color="#E5E5E5"> add them together and</font>
+elements from l2 add them together and
 
-<font color="#CCCCCC">put it</font><font color="#E5E5E5"> in this result as a first element</font>
+put it in this result as a first element
 
-so it will<font color="#E5E5E5"> just add</font><font color="#CCCCCC"> in usual elements</font>
+so it will just add in usual elements
 
-from<font color="#E5E5E5"> these two lists and put it in a</font>
+from these two lists and put it in a
 
-result<font color="#CCCCCC"> okay</font><font color="#E5E5E5"> pretty</font><font color="#CCCCCC"> straightforward and I</font>
+result okay pretty straightforward and I
 
-am just going to say Python<font color="#CCCCCC"> list too</font>
+am just going to say Python list too
 
-this much time<font color="#E5E5E5"> so right now the time</font><font color="#CCCCCC"> is</font>
+this much time so right now the time is
 
-this<font color="#CCCCCC"> I am going</font><font color="#E5E5E5"> to subtract start from</font>
+this I am going to subtract start from
 
-here<font color="#E5E5E5"> and I'm going</font><font color="#CCCCCC"> to multiply</font><font color="#E5E5E5"> this guy</font>
+here and I'm going to multiply this guy
 
-with thousand<font color="#CCCCCC"> because by default it</font><font color="#E5E5E5"> is</font>
+with thousand because by default it is
 
-in second I want<font color="#E5E5E5"> to print milliseconds</font>
+in second I want to print milliseconds
 
-here<font color="#E5E5E5"> all right now again at this point I</font>
+here all right now again at this point I
 
-will<font color="#E5E5E5"> capture time one more</font><font color="#CCCCCC"> time</font><font color="#E5E5E5"> and then</font>
+will capture time one more time and then
 
-I will store result here so now so<font color="#CCCCCC"> this</font>
+I will store result here so now so this
 
-was your Python list<font color="#E5E5E5"> okay so let me just</font>
+was your Python list okay so let me just
 
-<font color="#CCCCCC">say Python</font><font color="#E5E5E5"> list and here now I am</font>
+say Python list and here now I am
 
-processing<font color="#E5E5E5"> numpy</font><font color="#CCCCCC"> Y array so that's the</font>
+processing numpy Y array so that's the
 
-<font color="#CCCCCC">difference between these two code blocks</font>
+difference between these two code blocks
 
-or now<font color="#CCCCCC"> num py is also convenient</font><font color="#E5E5E5"> because</font>
+or now num py is also convenient because
 
 if you want to add two arrays you just
 
-say<font color="#CCCCCC"> a1 plus e2 right so it is</font><font color="#E5E5E5"> not like</font>
+say a1 plus e2 right so it is not like
 
-you have<font color="#E5E5E5"> to write a list</font><font color="#CCCCCC"> comprehension</font>
+you have to write a list comprehension
 
-<font color="#CCCCCC">okay you can just add them together</font><font color="#E5E5E5"> and</font>
+okay you can just add them together and
 
-you can<font color="#E5E5E5"> just say print my num py took</font>
+you can just say print my num py took
 
-this is just a way to measure<font color="#E5E5E5"> the time</font>
+this is just a way to measure the time
 
 that this code block took okay
 
-<font color="#E5E5E5">all right so let's run this</font><font color="#CCCCCC"> program here</font>
+all right so let's run this program here
 
-<font color="#E5E5E5">okay says Python</font><font color="#CCCCCC"> list</font><font color="#E5E5E5"> of zero point</font><font color="#CCCCCC"> zero</font>
+okay says Python list of zero point zero
 
-<font color="#E5E5E5">number I to zero point</font><font color="#CCCCCC"> zero because this</font>
+number I to zero point zero because this
 
-size is pretty<font color="#E5E5E5"> small</font><font color="#CCCCCC"> so I'm going to</font>
+size is pretty small so I'm going to
 
-increase<font color="#E5E5E5"> the size and do a processing</font>
+increase the size and do a processing
 
-for um about<font color="#CCCCCC"> a million elements</font><font color="#E5E5E5"> here now</font>
+for um about a million elements here now
 
-you<font color="#E5E5E5"> can see that in order</font><font color="#CCCCCC"> to add million</font>
+you can see that in order to add million
 
-<font color="#CCCCCC">R elements from to</font><font color="#E5E5E5"> list Python list took</font>
+R elements from to list Python list took
 
-<font color="#CCCCCC">116 millisecond</font><font color="#E5E5E5"> versus numpy</font><font color="#CCCCCC"> Y or eight</font>
+116 millisecond versus numpy Y or eight
 
-took eleven point five seconds<font color="#E5E5E5"> this is</font>
+took eleven point five seconds this is
 
-<font color="#E5E5E5">crazy fast</font><font color="#CCCCCC"> so you can see that again</font>
+crazy fast so you can see that again
 
-when you're processing<font color="#E5E5E5"> millions and</font>
+when you're processing millions and
 
-<font color="#E5E5E5">millions of numbers it just makes sense</font>
+millions of numbers it just makes sense
 
-<font color="#E5E5E5">to use numpy</font><font color="#CCCCCC"> Y it is also convenient</font>
+to use numpy Y it is also convenient
 
-because you<font color="#E5E5E5"> can see that if you want to</font>
+because you can see that if you want to
 
-add<font color="#E5E5E5"> two lists together</font><font color="#CCCCCC"> you</font><font color="#E5E5E5"> just do a 1</font>
+add two lists together you just do a 1
 
-and a 2 a 1 plus a 2<font color="#E5E5E5"> I</font><font color="#CCCCCC"> I will just</font>
+and a 2 a 1 plus a 2 I I will just
 
-demonstrate that using<font color="#E5E5E5"> idle because it's</font>
+demonstrate that using idle because it's
 
-this little<font color="#E5E5E5"> easier to demo that</font><font color="#CCCCCC"> in idle</font>
+this little easier to demo that in idle
 
-<font color="#E5E5E5">so I'm going to create let's</font><font color="#CCCCCC"> say 2 numpy</font>
+so I'm going to create let's say 2 numpy
 
-our array<font color="#CCCCCC"> okay</font><font color="#E5E5E5"> a 1 a 1 is NP dot array</font>
+our array okay a 1 a 1 is NP dot array
 
-it has<font color="#CCCCCC"> 1 2 3</font><font color="#E5E5E5"> and a</font><font color="#CCCCCC"> 2 is again n</font><font color="#E5E5E5"> P dot</font>
+it has 1 2 3 and a 2 is again n P dot
 
-array<font color="#E5E5E5"> it has let's say element 4 5 6</font><font color="#CCCCCC"> ok</font>
+array it has let's say element 4 5 6 ok
 
-<font color="#CCCCCC">you can do a 1 plus a 2 so it will</font><font color="#E5E5E5"> give</font>
+you can do a 1 plus a 2 so it will give
 
-you<font color="#E5E5E5"> that is NC 4 + 1 5 2 + 5 7 and so on</font>
+you that is NC 4 + 1 5 2 + 5 7 and so on
 
 you can also do a 2 minus a 1 you can
 
-see you subtracted this guy from<font color="#E5E5E5"> here</font>
+see you subtracted this guy from here
 
-<font color="#E5E5E5">you can also do multiplication so a 1</font>
+you can also do multiplication so a 1
 
-cross a 2 you can do division<font color="#E5E5E5"> and so on</font>
+cross a 2 you can do division and so on
 
-<font color="#CCCCCC">you</font><font color="#E5E5E5"> can do all these operations</font><font color="#CCCCCC"> okay so</font>
+you can do all these operations okay so
 
-that<font color="#E5E5E5"> was all about numpy our</font>
+that was all about numpy our
 
 introduction
 
-you saw<font color="#E5E5E5"> that why num py is so better</font>
+you saw that why num py is so better
 
-than<font color="#CCCCCC"> so much better than the plain</font>
+than so much better than the plain
 
-Python list<font color="#CCCCCC"> I will</font><font color="#E5E5E5"> cover more about num</font>
+Python list I will cover more about num
 
-py in our next tutorial<font color="#E5E5E5"> thank you for</font>
+py in our next tutorial thank you for
 
-<font color="#CCCCCC">watching</font>
-
+watching
