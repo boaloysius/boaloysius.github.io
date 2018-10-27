@@ -6,8 +6,10 @@ The <code>ndarray</code> or simply an <code>array</code> is the basic object in 
 <h2>Advantages of NumPy</h2>
 What is the use of arrays over lists, specifically for data analysis? Putting crudely, it is convenience and speed :
 
-You can write vectorised code on numpy arrays, not on lists, which is convenient to read and write, and concise.
-Numpy is much faster than the standard python ways to do computations.
-Vectorised code typically does not contain explicit looping and indexing etc. (all of this happens behind the scenes, in precompiled C-code), and thus it is much more concise.
+1. You can write vectorised code on numpy arrays, not on lists, which is convenient to read and write, and concise.
+2. Numpy is much faster than the standard python ways to do computations.
+3. Vectorised code typically does not contain explicit looping and indexing etc. (all of this happens behind the scenes, in precompiled C-code), and thus it is much more concise. Even simple mathematical operations on lists require for loops, unlike with arrays.
+4. This was with 1-D arrays. You'll often work with 2-D arrays (matrices), where the difference would be even greater. With lists, you'll have to store matrices as lists of lists and loop through them. With NumPy, you simply multiply the matrices.
 
-Let's see an example of convenience, we'll see one later for speed.
+Let's see an <a href="">example of convenience</a>.
+
