@@ -16,7 +16,7 @@
 
 ## Experience
 
-**Truecaller (1 year)**
+**Truecaller (Part-Time Consultant) (1.5 years)**
 - Front-end consultant for the enterprise web self-serve portal development.
 - Developed the portal enabling brands to use custom video caller IDs, manage subscriptions, and view user analytics.
 - Utilized Vue, Vuex, NuxtJs, SCSS, Git for the project.
@@ -52,5 +52,5 @@
 ## Sample Works and Code
 1) Truecaller Blog Page (Next.js and Contentful): [Link](https://business.truecaller.com/resources)
 2) Mira, a JIRA clone created with React, Redux, MUI, node and deployed in Netlify serverless: [App](https://mira-pesto.netlify.app), [Code Frontend](https://github.com/pesto-students/mira-frontend-mira), [Code backend](https://github.com/pesto-students/mira---backend-mira)
-2) Vue.js Project Code Sample: [GitHub Repository](https://github.com/boaloysius/MusicAppVue)
-3) Wordpress Website: [GitHub Repository](https://github.com/boaloysius/Wordpress-theme-IEEE-)
+3) Vue.js Project Code Sample: [GitHub Repository](https://github.com/boaloysius/MusicAppVue)
+4) Wordpress Website: [GitHub Repository](https://github.com/boaloysius/Wordpress-theme-IEEE-)
