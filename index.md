@@ -7,27 +7,26 @@
 - Skilled in deploying and testing applications using GitHub Actions and Jenkins CI/CD pipeline.
 
 ## Key Skills
-**Frontend**: NuxtJs, NextJs, React, Vue, Redux, CSS3, CSS3 animations, Babel, SCSS, HTML5, JavaScript, SASS  
+**Frontend**: NuxtJs, NextJs, React, Vue, Redux, CSS3, SCSS, HTML5, JavaScript
 **Backend**: Python, PHP, Node, ExpressJS  
-**Databases**: MySQL, Firebase, MongoDB, PostgreSQL, SQLite  
+**Databases**: MySQL, Firebase, MongoDB  
 **Version Control**: Git, GitHub  
 **CMS**: Drupal, WordPress  
-**Other**: Webpack, API, Angular, NoSQL, Machine Learning
+**Other**: Machine Learning, Deep Learning
 
 ## Experience
 
 **Truecaller (1 year)**
 - Front-end consultant for the enterprise web self-serve portal development.
 - Developed the portal enabling brands to use custom video caller IDs, manage subscriptions, and view user analytics.
-- Utilized Vue, NuxtJs, SCSS, Git, and Jenkins for the project.
+- Utilized Vue, Vuex, NuxtJs, SCSS, Git for the project.
 - Implemented Truecaller blogs using Contentful and created multilingual and feedback stack modules.
 
 **Viridios.ai (1.5 years)**
 - Full-stack developer responsible for backend development using Python, fastapi, flask, and SQL.
 - Utilized Next.js and Bootstrap for frontend development.
-- Deployed applications using Kubernetes for staging/production environments.
 - Implemented CI/CD with GitHub and GitHub Actions, and used Jira for project management.
-- Enhanced the Valuation and Risk Engine (VRE) by improving a deep learning model for carbon asset price prediction.
+- Enhanced the Valuation and Risk Engine (VRE) by improving the core deep learning model for carbon asset price prediction.
 - Streamlined market data processing, reducing daily effort from 5 hours to 30 minutes.
 - Productionized internal Python modules for multithreading, persistent database connectors, and concurrent API connectors.
 
@@ -35,10 +34,10 @@
 - Data scientist focusing on training deep learning models for user targeting ads.
 - Set up a production pipeline for training deep learning models using Google AI Platform and BigQuery.
 - Developed a system capable of training up to 1TB of data daily in 2 hours.
-- Utilized Bitbucket and Jira for version control and product management.
+- Utilized Bitbucket and Jira for version control and project management.
 
 **Awesome Daddies Interactive (1 year)**
-- Front-end developer involved in product development using React, Redux, SCSS, WordPress, Drupal, jQuery, Bootstrap, and Material Design.
+- Front-end developer involved in product development using React, WordPress, Drupal, jQuery, Bootstrap, and Material Design.
 - Customized WordPress and Drupal to implement unique styles and modules.
 - Deployed and managed applications on Heroku and Netlify for clients.
 
@@ -52,5 +51,6 @@
 
 ## Sample Works and Code
 1) Truecaller Blog Page (Next.js and Contentful): [Link](https://business.truecaller.com/resources)
-2) Wordpress Website: [GitHub Repository](https://github.com/boaloysius/Wordpress-theme-IEEE-)
-3) Vue.js Project Code Sample: [GitHub Repository](https://github.com/boaloysius/M
+2) Mira, a JIRA clone created with React, Redux, MUI, node and deployed in Netlify serverless: [App](https://mira-pesto.netlify.app), [Code Frontend](https://github.com/pesto-students/mira-frontend-mira), [Code backend](https://github.com/pesto-students/mira---backend-mira)
+2) Vue.js Project Code Sample: [GitHub Repository](https://github.com/boaloysius/MusicAppVue)
+3) Wordpress Website: [GitHub Repository](https://github.com/boaloysius/Wordpress-theme-IEEE-)
